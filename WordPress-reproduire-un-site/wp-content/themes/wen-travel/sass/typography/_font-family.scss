@@ -1,0 +1,60 @@
+/**
+ * 2.1 - Font-Family
+ */
+
+body,
+input,
+select,
+textarea,
+.trip-filter-section .description-box button,
+.posts-navigation a,
+input[type="submit"].submit,
+.filter-button-group .button,
+button,
+.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.comment-meta .author-name,
+#content #infinite-handle span button,
+.ui-tabs .ui-tabs-nav li a,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="submit"].wpcf7-submit {
+	font-family: $body-font;
+}
+
+.main-navigation .nav-menu li a,
+.menu-label {
+	font-family: $menu-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#testimonial-content-section .entry-title,
+.widget-title,
+#stats-section .entry-title,
+.post-navigation .post-title,
+.team-content-wrapper .entry-title,
+.custom-header-content .section-title {
+	font-family: $heading-font;
+}
+
+#feature-slider-section .entry-title,
+.home .custom-header-content .section-title,
+.section-title,
+.contact-content-wrapper .entry-title,
+.special-offer-content-wrapper .section-description .offer-percentage {
+	font-family: $section-heading-font;
+}
+
+.site-title,
+.site-description {
+	font-family: $site-title-font;
+}

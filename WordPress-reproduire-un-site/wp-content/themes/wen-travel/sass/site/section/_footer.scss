@@ -1,0 +1,73 @@
+/**
+ * 7.3.4 - Footer
+ */
+
+#colophon .widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#colophon .widget {
+    background-color: transparent;
+}
+
+#site-generator {
+    clear: both;
+    display: block;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 21px 30px;
+    position: relative;
+}
+
+aside.widget-area + div#site-generator:before {
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 60px);
+    height: 1px;
+}
+
+.site-info {
+    @include flex;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.sticky-playlist-enabled .site-footer {
+    margin-bottom: 60px;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    max-width: 667px;
+    margin: 0 auto;
+
+    p {
+        margin-bottom: 0;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.footer-contact {
+    margin-top: 28px;
+}
+
+.site-info {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.site-info a {
+    text-decoration: none;
+    margin: 0 3px;
+}

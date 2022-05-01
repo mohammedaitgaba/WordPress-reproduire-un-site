@@ -1,0 +1,53 @@
+.site-header-cart,
+.menu-toggle-wrapper,
+.main-navigation a,
+header.site-header.transparent.fixed,
+.site-header .wrapper,
+.site-branding,
+.site-branding a,
+.collection-content-wrapper .hentry-inner .post-thumbnail a img,
+.attraction-content-wrapper .hentry-inner .post-thumbnail a img,
+.special-offer-content-wrapper .post-thumbnail img {
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.trip-filter-section .description-box .item select,
+.trip-filter-section .description-box .item select:focus {
+    transition: 0.3s background-color ease-in-out,
+                0.3s border-color ease-in-out;
+}

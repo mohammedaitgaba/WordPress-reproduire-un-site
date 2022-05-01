@@ -1,0 +1,88 @@
+/**
+ * 7.3.10.2 - Countdown
+ */
+.countdown-content-wrapper {
+    .content-left {
+        .content-description {
+            margin-top: 14px;
+        }
+        .price {
+            span {
+                font-weight: 600;
+            }
+            span.normal-price {
+                opacity: .2;
+                text-decoration: line-through;
+            }
+            span.offer-price {
+                margin-left: 14px;
+            }
+            span.offer-text {
+                text-transform: uppercase;
+                font-weight: 400;
+                margin-left: 4px;
+            }
+        }
+    }
+    .content-right {
+        .entry-content {
+            margin-top: 35px;
+        }
+        .post-thumbnail {
+            position: relative;
+        }
+        #clock {
+            width: 100%;
+            overflow: hidden;
+            margin-top: 14px;
+            > .count-down {
+                float: left;
+                width: 25%;
+                .countdown-number {
+                    display: block;
+                    line-height: 0.92;
+                    font-weight: 600;
+                }
+                .countdown-label {
+                    text-transform: uppercase;
+                    display: block;
+                    letter-spacing: 0.001em;
+                    line-height: 2;
+                }
+                > span {
+                    display: block;
+                    text-align: center;
+                    position: relative;
+                    padding: 14px 7px;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        width: 1px;
+                        height: 30%;
+                        opacity: .2;
+                    }
+                }
+                &:last-child {
+                    > span {
+                        &:after {
+                            content: none;
+                        }
+                    }
+                }
+            }
+        }
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .content-left + .content-right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+

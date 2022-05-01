@@ -1,0 +1,625 @@
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.list-inline li {
+    margin-right: 1em;
+}
+
+.wp-travel-default-article .wp-travel-explore {
+    margin-top: 14px;
+}
+
+.trip-headline-wrapper .featured-detail-section .right-plot-inner-wrap .wp-travel-trip-meta-info {
+    margin-bottom: 28px;
+    margin-top: 28px;
+}
+
+.wp-travel.trip-headline-wrapper .wp-detail-review-wrap .wp-travel-trip-detail.empty {
+    display: none;
+}
+
+.wrapper .wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-left .entry-meta {
+    margin-bottom: -8px;
+    margin-left: 5px;
+}
+
+.wrapper .wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-left .entry-meta>div {
+    float: left;
+}
+
+.tab-list.resp-tabs-list {
+    max-width: 100% !important;
+}
+
+.description-box select,
+.description-box input[type=text],
+.description-box input[type=search],
+.description-box input[type=email],
+.description-box textarea {
+    border-color: transparent;
+}
+
+.description-box select:focus,
+.description-box input[type=text]:focus,
+.description-box input[type=search]:focus,
+.description-box input[type=email]:focus,
+.description-box textarea:focus {
+    border-color: #ebebeb;
+}
+
+.paxpicker .summary {
+    max-height: 50px;
+}
+
+.trip-filter-section {
+    padding: 0 30px;
+}
+
+.trip-filter-section.has-background-image {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.description-box {
+    background-color: rgba(244, 245, 245, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 22px -10px #afacac;
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 25px 10px 10px 10px;
+}
+
+.description-box .item {
+    flex: unset;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+}
+
+.description-box .item.item-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.description-box .item.item-4 {
+    flex: 1;
+    margin-right: 0;
+}
+
+.description-box p {
+    margin-bottom: 0;
+}
+
+.description-box button {
+    border-radius: 0;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.description-box button:focus {
+    outline: none;
+}
+
+.description-box .item-1 {
+    position: relative;
+}
+
+.description-box .item-1 .fas {
+    position: absolute;
+    left: 25px;
+}
+
+@media (max-width: 1024px) {
+
+    .content-area,
+    .site-content .sidebar {
+        width: 100% !important;
+        max-width: unset !important;
+        margin-left: unset !important;
+        float: unset;
+    }
+}
+
+.btn-primary:hover,
+.wp-travel-booknow-btn:hover,
+input[type=submit]:hover,
+.btn-wp-travel-filter:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+#colophon .btn-primary:hover,
+#colophon .wp-travel-booknow-btn:hover,
+#colophon input[type=submit]:hover,
+#colophon .btn-wp-travel-filter:hover {
+    background-color: #6a6a6a;
+}
+
+.destination-content-wrapper,
+.activities-content-wrapper,
+.featured-trip-content-wrapper,
+.trip-content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content-area .destination-content-wrapper,
+.content-area .activities-content-wrapper,
+.content-area .featured-trip-content-wrapper,
+.content-area .trip-content-wrapper {
+    margin: 0 -15px;
+}
+
+.hentry {
+    width: 100%;
+}
+
+.trip-filter-section {
+    margin-bottom: 42px;
+}
+
+.destination-content-wrapper,
+.activities-content-wrapper,
+.featured-trip-content-wrapper,
+.trip-content-wrapper {
+    padding: 0 30px;
+}
+
+/*--------------------------------------------------------------
+# >= Destinations
+--------------------------------------------------------------*/
+.destination-content-wrapper .hentry-inner {
+    border-radius: 15px;
+    box-shadow: 0 0 22px -10px #afacac;
+    position: relative;
+    overflow: hidden;
+}
+
+.destination-content-wrapper .hentry-inner .entry-container {
+    left: 0;
+    padding: 15px 25px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 1;
+}
+
+.destination-content-wrapper .hentry-inner .entry-container:before {
+    background-color: rgba(255, 255, 255, 0.8);
+    content: "";
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transform: translateY(0);
+    -o-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    width: 100%;
+    z-index: -1;
+}
+
+.destination-content-wrapper .entry-header .entry-title,
+.activities-content-wrapper .entry-header .entry-title,
+.trip-content-wrapper .entry-header .entry-title,
+.featured-trip-content-wrapper .entry-header .entry-title {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.destination-content-wrapper .hentry-inner,
+.activities-content-wrapper .hentry-inner,
+.trip-content-wrapper .hentry-inner {
+    transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.destination-content-wrapper .hentry-inner .post-thumbnail,
+.activities-content-wrapper .hentry-inner .post-thumbnail,
+.trip-content-wrapper .hentry-inner .post-thumbnail {
+    overflow: hidden;
+}
+
+.destination-content-wrapper .hentry-inner .post-thumbnail img,
+.activities-content-wrapper .hentry-inner .post-thumbnail img {
+    transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.destination-content-wrapper .hentry-inner:hover .post-thumbnail img,
+.activities-content-wrapper .hentry-inner:hover .post-thumbnail img {
+    transform: rotate(2deg) scale(1.1);
+    -o-transform: rotate(2deg) scale(1.1);
+    -moz-transform: rotate(2deg) scale(1.1);
+    -webkit-transform: rotate(2deg) scale(1.1);
+    transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.activities-content-wrapper .hentry-inner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 22px -10px #afacac;
+}
+
+/*--------------------------------------------------------------
+# >= Trips Activities
+--------------------------------------------------------------*/
+.activities-content-wrapper .entry-container {
+    padding: 21px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+}
+
+.activities-content-wrapper .entry-container .entry-title,
+.activities-content-wrapper .entry-container .entry-count {
+    transition: 0.3s ease-in-out;
+}
+
+.activities-content-wrapper .entry-container .entry-count {
+    display: inline-block;
+}
+
+/*--------------------------------------------------------------
+# >= Latest Trips
+--------------------------------------------------------------*/
+.trip-content-wrapper .hentry-inner {
+    position: relative;
+}
+
+.trip-content-wrapper .hentry-inner .entry-header {
+    float: none;
+    position: absolute;
+}
+
+.trip-content-wrapper .hentry-inner .entry-container {
+    text-align: center;
+}
+
+.trip-content-wrapper .hentry-inner .entry-container .price .amount {
+    margin-left: 5px;
+}
+
+.trip-content-wrapper .hentry-inner .list-inline {
+    justify-content: center;
+}
+
+.trip-content-wrapper .hentry-inner .list-inline .more-link {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.more-button {
+    display: inline-block;
+}
+
+/*--------------------------------------------------------------
+# >= Featured Trip Slider
+--------------------------------------------------------------*/
+.site-content .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+    right: 15px;
+}
+
+.featured-trip-section .featured-trip-content-wrapper {
+    position: relative;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .owl-stage {
+    margin-top: 35px;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .hentry {
+    width: 100%;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .hentry .entry-container {
+    text-align: center;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .hentry .entry-container .wp-travel-average-review {
+    margin-bottom: 21px;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .hentry .entry-container .amount {
+    color: #4c87e0;
+    font-size: 35px;
+    font-size: 2.1875rem;
+    margin-left: 5px;
+}
+
+.featured-trip-section .featured-trip-content-wrapper .hentry .entry-container .list-inline {
+    justify-content: center;
+}
+
+.wp-travel-toolbar .wp-travel-filter-button .btn-wp-travel-filter {
+    padding: 12px 24px;
+    line-height: 1;
+    border: 0;
+}
+
+.wp-travel-toolbar .wp-travel-filter-button {
+    padding: 10px 9px;
+}
+
+.wp-travel-toolbar .wp-toolbar-filter-field,
+.wp-travel-toolbar .wp-travel-filter-button {
+    padding: 8px 10px;
+}
+
+.wp-travel-toolbar .wp-travel-filter-button {
+    margin: 0;
+}
+
+.wp-travel-toolbar .wp-toolbar-filter-field p {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+/*--------------------------------------------------------------
+# >= 667px
+--------------------------------------------------------------*/
+@media screen and (min-width: 41.6875em) {
+
+    .destination-content-wrapper .hentry,
+    .activities-content-wrapper .hentry,
+    .featured-trip-content-wrapper .hentry,
+    .trip-content-wrapper .hentry {
+        padding: 0 15px;
+    }
+
+    .description-box .item {
+        width: 50%;
+    }
+
+    .description-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .destination-content-wrapper.layout-four .hentry,
+    .activities-content-wrapper.layout-four .hentry,
+    .trip-content-wrapper.layout-four .hentry {
+        width: 50%;
+    }
+
+    .destination-content-wrapper.layout-two .hentry,
+    .activities-content-wrapper.layout-two .hentry,
+    .trip-content-wrapper.layout-two .hentry {
+        width: 50%;
+    }
+
+    .destination-content-wrapper.layout-three .hentry,
+    .activities-content-wrapper.layout-three .hentry,
+    .trip-content-wrapper.layout-three .hentry {
+        width: 33.33%;
+    }
+
+    .destination-content-wrapper,
+    .activities-content-wrapper,
+    .featured-trip-content-wrapper,
+    .trip-content-wrapper {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .description-box .item.item-4,
+    .description-box .item.item-2 {
+        border: 0;
+    }
+
+    .trip-content-wrapper .hentry-inner .entry-container {
+        text-align: left;
+    }
+
+    .trip-content-wrapper .hentry-inner .list-inline {
+        justify-content: flex-start;
+    }
+
+    .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav,
+    .site-content .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+        right: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+# >= 768px
+--------------------------------------------------------------*/
+@media screen and (min-width: 48em) {
+    .activities-content-wrapper .hentry-inner .entry-title {
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+
+    .activities-content-wrapper .hentry-inner .entry-count {
+        opacity: 0;
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+    }
+
+    .activities-content-wrapper .hentry-inner:hover .entry-title,
+    .activities-content-wrapper .hentry-inner:hover .entry-count {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .widget-area .wp-travel-itinerary-items ul.wp-travel-itinerary-list li {
+        width: calc(50% - 20px);
+    }
+}
+
+/*--------------------------------------------------------------
+# >= 1024px
+--------------------------------------------------------------*/
+@media screen and (min-width: 64em) {
+    .trip-filter-section {
+        padding: 0 40px;
+    }
+
+    .description-box .item.item-4 {
+        flex: 0 0 190px;
+    }
+
+    .destination-content-wrapper .hentry,
+    .activities-content-wrapper .hentry,
+    .featured-trip-content-wrapper .hentry,
+    .trip-content-wrapper .hentry {
+        padding: 0 20px;
+    }
+
+    .destination-content-wrapper.layout-four .hentry,
+    .activities-content-wrapper.layout-four .hentry,
+    .trip-content-wrapper.layout-four .hentry {
+        width: 25%;
+    }
+
+    .description-box .item {
+        flex: 1;
+        width: 5px;
+    }
+
+    .description-box .item.item-4 button {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .description-box .item.item-2 {
+        padding: 0 15px;
+    }
+
+    .trip-filter-section {
+        margin-bottom: 70px;
+    }
+
+    .destination-content-wrapper,
+    .activities-content-wrapper,
+    .featured-trip-content-wrapper,
+    .trip-content-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 20px;
+    }
+
+    .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+        right: 20px;
+        top: -25px;
+    }
+
+    .site-content .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+        right: 20px;
+    }
+
+    .content-area .destination-content-wrapper,
+    .content-area .activities-content-wrapper,
+    .content-area .featured-trip-content-wrapper,
+    .content-area .trip-content-wrapper {
+        margin: 0 -20px;
+    }
+}
+
+/*--------------------------------------------------------------
+# >= 1366px
+--------------------------------------------------------------*/
+@media screen and (min-width: 85.375em) {
+    .trip-filter-section {
+        padding: 0 50px;
+    }
+
+    .destination-content-wrapper .hentry,
+    .activities-content-wrapper .hentry,
+    .featured-trip-content-wrapper .hentry,
+    .trip-content-wrapper .hentry {
+        padding: 0 25px;
+    }
+
+    .destination-content-wrapper,
+    .activities-content-wrapper,
+    .featured-trip-content-wrapper,
+    .trip-content-wrapper {
+        padding: 0 25px;
+    }
+
+    .content-area .destination-content-wrapper,
+    .content-area .activities-content-wrapper,
+    .content-area .featured-trip-content-wrapper,
+    .content-area .trip-content-wrapper {
+        margin: 0 -25px;
+    }
+
+    .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+        right: 25px;
+    }
+
+    .site-content .featured-trip-section .featured-trip-content-wrapper .owl-carousel .owl-nav {
+        right: 25px;
+    }
+}
+
+/*--------------------------------------------------------------
+# >= 1660px
+--------------------------------------------------------------*/
+@media screen and (min-width: 103.75em) {
+    .activities-content-wrapper .entry-container {
+        padding: 28px;
+    }
+}

@@ -1,0 +1,169 @@
+/**
+ * 7.3.9 - Portfolio & Stats
+ */
+
+ .portfolio-content-wrapper {
+    overflow: hidden;
+}
+
+.portfolio-content-wrapper .hentry {
+    height: auto;
+    line-height: 1;
+}
+
+.portfolio-content-wrapper .hentry-inner {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-content-wrapper .entry-container {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.destination .entry-meta {
+    margin-bottom: 0;
+}
+
+.portfolio-content-section,
+.attraction-content-section {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.portfolio-content-wrapper .entry-container > .entry-container-inner-wrap {
+    display: block;
+    padding: 21px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+    .entry-title {
+        margin-bottom: 7px;
+    }
+}
+
+.section-content-wrapper.portfolio-content-wrapper .post-thumbnail {
+    margin: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    overflow: hidden;
+    img {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.portfolio-content-wrapper .hentry-inner:hover .post-thumbnail img,
+.portfolio-content-wrapper .hentry-inner:focus .post-thumbnail img {
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+}
+
+.portfolio-content-wrapper .entry-header .entry-meta {
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.portfolio-content-wrapper .entry-meta a {
+    text-decoration: none;
+}
+
+.portfolio-content-wrapper .entry-summary {
+    display: none;
+}
+
+.promotion-section .cover-link:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+}
+
+.filter-button-group {
+    @include flex;
+    @include flex-justify-center;
+    @include flex-wrap;
+    padding-bottom: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .button {
+        font-weight: 600;
+        padding: 7px 14px;
+        margin: 5px;
+        text-transform: capitalize;
+        &:last-child{
+            margin-right: 0;
+        }
+
+        &:hover,
+        &:focus {
+            transform: none;
+        }
+    }
+}
+
+.portfolio-content-section.itineraries,
+.portfolio-content-section.destination {
+    .portfolio-content-wrapper .hentry-inner {
+        .entry-container {
+            opacity: 1;
+            position: relative;
+            .entry-container-inner-wrap {
+                left: auto;
+                padding: 0;
+                text-align: left;
+                top: auto;
+                transform: none;
+                .entry-header {
+                    @include flex;
+                    @include flex-justify-space-between;
+
+                    .price {
+                        .label {
+                            display: block;
+                            margin-bottom: 4px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+
+                .trip-footer {
+                    border-top: 1px solid;
+                    @include flex;
+                    @include flex-justify-space-between;
+                    @include flex-align-center;
+                    .entry-meta {
+                        font-weight: 700;
+                        .icon {
+                            margin-right: 10px;
+                        }
+                    }
+                    .more-button {
+                        margin-top: 0;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

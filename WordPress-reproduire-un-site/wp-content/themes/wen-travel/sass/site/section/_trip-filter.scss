@@ -1,0 +1,111 @@
+/**
+ * 7.3.16 - Trip Filter Section
+ */
+
+.trip-filter-section.section {
+	margin-bottom: 0;
+}
+
+ .trip-filter-section {
+
+ 	.description-box {
+ 		background-color: transparent;
+ 		box-shadow: none;
+ 		padding: 0;
+
+ 		.item {
+			position: relative;
+ 			padding: 0px 5px;
+ 			margin-bottom: 5px;
+ 			.icon:not(.icon-search) {
+				 position: absolute;
+				 top: 15px;
+ 				left:10px;
+ 			}
+ 		&.item-2 {
+ 			margin-right: 0;
+			 &:after {
+				content: "\203A";
+				position: absolute;
+				right: 5px;
+				top: 10px;
+				width: 30px;
+				height: 55px;
+				font-size: 24px;
+				font-size: 1.5rem;
+				-webkit-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				z-index: -1;
+			 }
+ 		}	
+ 		&.item-1 {
+			select {
+				@include border(0);
+			}
+			&:after {
+				content: "\203A";
+				position: absolute;
+				right: 5px;
+				top: 10px;
+				width: 30px;
+				height: 55px;
+				font-size: 24px;
+				font-size: 1.5rem;
+				-webkit-transform: rotate(90deg);
+				-ms-transform: rotate(90deg);
+				transform: rotate(90deg);
+				z-index: -1;
+			 }
+		 }
+
+ 		&.item-4 {
+ 			button {
+ 				border: 0;
+ 				@include border(0);
+ 				outline: 0;
+ 				padding: 19px 35px 18px 40px;
+ 				position: relative;
+ 				text-transform: uppercase;
+ 				width: 100%;
+ 				&:before {
+ 					margin-right: 5px;
+ 				}
+ 			}
+ 		}
+
+ 			select,
+ 			input[type='text'] {
+ 				border: 1px solid;
+				 margin-top: 0;
+ 			}
+
+ 			input[type='text'] {
+ 				line-height: 1.5;
+ 			}
+ 		}
+ 	}
+ }
+
+ .trip-filter-section .description-box .item select {
+	 padding: 15px;
+	 padding-left: 35px;
+	 width: 100%;
+	 -webkit-appearance: none;
+	 -moz-appearance: none;
+	 appearance: none;
+	 outline-width: 0;
+ }
+
+ .trip-filter-section .description-box .item input[type='text'] {
+	 padding-bottom: 14px;
+	 padding-top: 14px;
+ }
+
+ .trip-filter-section .description-box .item.item-2 select {
+	 border-radius: 0;
+ }
+
+ .trip-filter-section .icon-search {
+	 left: -10px;
+ }

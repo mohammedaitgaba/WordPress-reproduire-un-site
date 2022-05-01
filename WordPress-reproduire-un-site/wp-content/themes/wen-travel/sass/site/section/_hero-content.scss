@@ -1,0 +1,96 @@
+/**
+ * 7.3.6 - Hero Content
+ */
+
+#hero-section,
+#special-offer {
+    border: none;
+}
+
+#hero-section .hentry,
+#special-offer .hentry {
+    position: static;
+
+    .hentry-inner {
+        position: relative;
+    }
+}
+
+.play-button.button {
+    line-height: 50px;
+    height: 50px;
+    padding: 0;
+    position: relative;
+    width: 50px;
+    .icon {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+    &:after {
+        left: 50%;
+        @include transform(translate(-50%,-50%));
+        top: 50%;
+        position: absolute;
+    }
+}
+
+.hero-content-wrapper .post-thumbnail-background {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    float: left;
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.hero-content-wrapper .section-description {
+    margin-top: 0;
+}
+
+.hero-content-wrapper .entry-container,
+.special-offer-content-wrapper .entry-container {
+    width: 100%;
+}
+
+#special-offer-section .section-description {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-shadow: 0 2px 3px rgba(0,0,0, .75);
+}
+
+.special-offer-content-wrapper .section-description {
+    margin-top: 21px;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+.special-offer-content-wrapper .section-description.has-bg-img {
+    padding: 7px 7px 21px;
+}
+
+.special-offer-content-wrapper .section-description .offer-percentage {
+    font-style: italic;
+}
+
+.hero-content-wrapper,
+.special-offer-content-wrapper {
+    .thumb-video-wrapper {
+        overflow: hidden;
+        margin-bottom: 14px;
+    } 
+}
+
+.special-offer-content-wrapper .post-thumbnail {
+    &:hover {
+        img {
+            transform: scale(1.025) rotate(1deg);
+            -moz-transform: scale(1.025) rotate(1deg);
+            -webkit-transform: scale(1.025) rotate(1deg);
+        }
+    }
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+/**
+ * 8.2.1 - >= 667px / 41.6875em
+ */
+
+ @include media(mobile_horizontal_lg) {
+    .featured-content-section.layout-three .hentry {
+        width: 33.33%;
+    }
+
+    .countdown-content-wrapper .content-right #clock {
+        bottom: -50px;
+    }
+ }

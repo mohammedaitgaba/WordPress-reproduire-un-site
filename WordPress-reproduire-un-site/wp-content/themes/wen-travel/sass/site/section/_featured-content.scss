@@ -1,0 +1,142 @@
+/**
+ * 7.3.3 - Featured Content
+ */
+
+.featured-content-wrapper a {
+    text-decoration: none;
+}
+
+.featured-content-wrapper,
+.portfolio-content-section.itineraries,
+.portfolio-content-section.destination {
+    
+    .hentry-inner {
+    
+        &:hover {
+            transform: translateY(-10px);
+            -moz-transform: translateY(-10px);  
+            -webkit-transform: translateY(-10px);
+            
+            .post-thumbnail img {
+                transform: scale(1.025) rotate(1deg);
+                -moz-transform: scale(1.025) rotate(1deg);
+                -webkit-transform: scale(1.025) rotate(1deg);
+            }
+        }
+    }
+
+    .post-thumbnail {
+        overflow: hidden;
+    }
+}
+
+.service-section {
+    .hentry-inner {
+        &:hover {
+            transform: translateY(-10px);
+            -moz-transform: translateY(-10px);  
+            -webkit-transform: translateY(-10px);
+            
+            .post-thumbnail img {
+                transform: scale(1.025) rotate(1deg);
+                -moz-transform: scale(1.025) rotate(1deg);
+                -webkit-transform: scale(1.025) rotate(1deg);
+            }
+        }
+    }
+}
+
+.featured-content-section .section-content-wrapper .post-thumbnail {
+    margin-bottom: 0;
+    width: 100%;
+    @include border(5px 5px 0 0);
+    .entry-header {
+        padding: 21px;
+        width: 100%;
+
+        &:before {
+            background: linear-gradient(to bottom, transparent 0%, rgba(99, 72, 72, 0.3) 100%);
+            content: "";
+            opacity: 1;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
+        }
+
+        .entry-title {
+            position: relative;
+        }
+
+        .entry-meta {
+            margin-bottom: 0;
+            margin-top: 7px;
+            position: relative;
+
+            a,
+            .vcard {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+#featured-video-section .entry-container {
+    margin-top: 14px;
+}
+
+#featured-video-section {
+    .post-thumbnail {
+        margin-bottom: 0;
+    }    
+    
+    .lightbox-enabled iframe {
+       pointer-events:none;
+    }
+}
+
+#featured-video-section a.mixed {
+    color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.featured-video-content-wrapper .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.featured-video-content-wrapper .entry-header .entry-meta {
+    line-height: 1.25;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+ .featured-video-content-wrapper .hentry.featured {
+    float: none;
+ }
+
+ .featured-content-wrapper .hentry-inner {
+     border: 1px solid;
+     @include border(5px);
+ }
+
+ .featured-content-wrapper .hentry .entry-container {
+    text-align: center;
+}
+
+.featured-content-section.layout-three .hentry {
+    width: 100%;
+}

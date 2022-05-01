@@ -1,0 +1,226 @@
+/**
+ * 7.1.1 - Comments
+ */
+
+.comments-area {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.single .site-main .entry-footer .entry-meta {
+    text-align: center;
+
+    a {
+        border: 1px solid;
+        @include border(35px);
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 14px;
+        padding: 7px 21px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.color-scheme-blog.single .site-main .entry-footer .entry-meta a,
+.color-scheme-corporate.single .site-main .entry-footer .entry-meta a {
+    @include border(5px);
+}
+
+.single .site-main .entry-footer .entry-meta .tags-links a {
+    border: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.comment-list {
+    list-style: none;
+    margin: 0;
+}
+
+.comments-title,
+.comment-reply-title {
+    line-height: 1.46;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+    padding-top: 42px;
+}
+
+.comments-area .comment-list > li:first-child > article,
+.comments-area .comment-list > li.pingback:first-child,
+.comments-area .comment-list > li.trackback:first-child {
+    border-top: none;
+}
+
+.comment-list article + .comment-respond {
+    margin-bottom: 3em;
+}
+
+.comment-list .children {
+    list-style: none;
+    margin: 0;
+}
+
+.comment-list .children li > article {
+    padding-left: 2.5em;
+}
+
+.comment-body {
+    @include flex;
+    @include flex-wrap;
+}
+
+.comment-respond .comment-form-comment textarea {
+    padding-left: 14px;
+}
+
+.comment-author {
+    margin: 0 1.5em 1.5em 0;
+    max-width: 55px;
+}
+
+.comment-author a {
+    text-decoration: none;
+}
+
+.comment-author .avatar {
+    width: 65px;
+}
+
+.comment-meta .edit-link,
+.pingback .edit-link {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+}
+
+.comment-meta {
+    margin-bottom: 14px;
+}
+
+.comment-content ul,
+.comment-content ol {
+    margin: 0 0 1.75em 1.5em;
+}
+
+.comment-content li > ul,
+.comment-content li > ol {
+    margin-bottom: 0;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.comment-reply-link:hover,
+.comment-reply-link:focus {
+    outline: 0;
+}
+
+.no-comments {
+    margin: 0;
+    padding-top: 1.75em;
+}
+
+.comment-navigation + .no-comments {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.form-allowed-tags code {
+    font-family: Inconsolata, monospace;
+}
+
+.form-submit {
+    margin: 0;
+}
+
+.author-name {
+    text-transform: capitalize;
+}
+
+.comment-reply-title small a {
+    border: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    height: 32px;
+    overflow: hidden;
+    width: 26px;
+    position: absolute;
+    right:  14px;
+    top: 14px;
+}
+
+.comment-respond {
+    margin: 49px auto 0;
+    max-width: 680px;
+    padding: 35px 15px;
+    position: relative;
+}
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+.comment-notes {
+    font-style: italic;
+}
+
+.comment-meta .author-name {
+    display: block;
+    font-style: normal;
+}
+
+.comment-meta a {
+    text-decoration: none;
+}
+
+.comment-meta .comment-permalink {
+    display: inline-block;
+}
+
+.comment-form label {
+    font-size: 12px;
+    font-size: 0.75rem;
+    letter-spacing: 0.083em;
+    line-height: 1.75;
+    text-transform: uppercase;
+}
+
+.comment-container {
+    position: relative;
+    padding: 25px;
+    width: 100%;
+
+    &:before {
+        border: 15px solid;
+        border-top: 0px;
+        content: "";
+        left: 0;
+        position: absolute;
+        top: -15px;
+    }
+}
+
+.comment-body .comment-container:before {
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+}

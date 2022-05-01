@@ -1,0 +1,96 @@
+/**
+ * 7.3.7 - Logo Slider
+ */
+
+.section .owl-carousel .owl-nav .owl-prev,
+.section .owl-carousel .owl-nav .owl-next {
+    @include border(50%);
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 35px;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 7px;
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    width: 35px;
+    z-index: 199;
+}
+
+.section .owl-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.wen-travel-logo-slider-content-wrapper.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.logo-slider-section .owl-prev,
+.logo-slider-section .owl-next {
+    transition-delay: 0.1s;
+    opacity: 0;
+}
+
+.logo-slider-section .owl-prev {
+    transform: translate(-100%, -50%);
+    -moz-transform: translate(-100%, -50%);
+    -o-transform: translate(-100%, -50%);
+    -webkit-transform: translate(-100%, -50%);
+}
+
+.logo-slider-section .owl-next {
+    transform: translate(200%,-50%);
+    -moz-transform: translate(200%,-50%);
+    -o-transform: translate(200%,-50%);
+    -webkit-transform: translate(200%,-50%);
+}
+
+.logo-slider-section.section {
+    &:hover {
+        .owl-prev,
+        .owl-next {
+            opacity: 1;
+            transform: translate(0,-50%);
+            -moz-transform: translate(0,-50%);
+            -o-transform: translate(0,-50%);
+            -webkit-transform: translate(0,-50%);
+        }
+    }
+}
+
+.logo-slider-section .owl-carousel .owl-nav .owl-prev,
+.logo-slider-section .owl-carousel .owl-nav .owl-next {
+    &:hover {
+        border-color: transparent;
+    }
+}
+
+.logo-slider-section .owl-prev {
+    left: 30px;
+}
+
+.logo-slider-section .owl-next {
+    right: 30px;
+}
+
+.logo-slider-section .owl-dots {
+    margin-bottom: 35px;
+    text-align: center;
+
+    .owl-dot {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.logo-slider-section .section-content-wrapper {
+    position: static;
+}

@@ -1,0 +1,482 @@
+/**
+ * 3.4 - Padding/Margin
+ */
+
+.menu-toggle {
+	padding: 12px;
+}
+
+.main-navigation a {
+	padding: 14px 0;
+}
+
+.cat-links a {
+	margin-right: 5px;
+}
+
+.section-subtitle {
+	margin-bottom: 14px;
+}
+
+.page-title + .section-subtitle {
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+
+#stats-section .entry-summary,
+#stats-section .entry-content {
+	margin-top: 7px;
+}
+
+.promotion-section .section-content-wrapper .post-thumbnail {
+	margin-top: 14px;
+}
+
+p {
+	margin-top: 0;
+}
+
+.singular-content-wrap .entry-content,
+.singular-content-wrap .entry-summary {
+	margin-top: 0;
+}
+
+.section-heading-wrapper {
+	margin: 0 auto;
+	padding: 0 30px 35px;
+}
+
+.section {
+	padding: 42px 0 7px 0;
+}
+
+.section.collection-content-section,
+.section.attraction-content-section {
+	padding-bottom: 12px;
+}
+
+.custom-header + .section:not(.portfolio-content-section.has-background-image),
+.feature-slider-section + .section:not(.portfolio-content-section.has-background-image),
+.custom-header + .section:not(.promotion-section),
+.feature-slider-section + .section:not(.promotion-section) {
+	padding-top: 42px;
+}
+
+.custom-header + .portfolio-content-section.has-background-image,
+.feature-slider-section + .portfolio-content-section.has-background-image,
+.custom-header + .promotion-section,
+.feature-slider-section + .promotion-section {
+	margin-top: 42px;
+}
+
+.section.stats-section {
+	padding-top: 42px;
+}
+
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner  .entry-container .entry-header,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner  .entry-container .trip-footer,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner  .entry-container .entry-header,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner  .entry-container .trip-footer {
+	padding: 25px;
+}
+
+.featured-trip-section .title_price_wrapper .entry-title,
+.trip-content-wrapper .entry-header .entry-title,
+.latest-package-wrapper .entry-meta {
+    margin-bottom: 7px;
+}
+
+.header-style-one .site-header-menu {
+    margin-top: 0;
+}
+
+#trip-filter-section.section.trip-filter-section {
+	padding-bottom: 37px;
+	padding-top: 42px;
+}
+
+.trip-filter-section + .section {
+    padding-top: 42px;
+}
+
+.custom-header .header-media-tagline {
+	margin-bottom: 21px;
+}
+
+.skill-section.has-background-image {
+	padding-top: 0;
+}
+
+.custom-header.header-media {
+    padding: 40px 0;
+}
+
+.hero-content-wrapper .video-wrapper .section-title,
+.special-offer-content-wrapper .video-wrapper .section-title {
+	margin-bottom: 10px;
+}
+
+.hero-content-wrapper .video-wrapper .section-description,
+.special-offer-content-wrapper .video-wrapper .section-description {
+	margin-bottom: 18px;
+}
+
+.custom-header-content {
+	padding: 30px 0;
+}
+
+.content-frame .custom-header-content {
+	padding: 30px;
+}
+
+.custom-header-content-wrapper .entry-breadcrumbs {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.site-footer {
+	.footer-widget-area {
+		.widget_categories ul li,
+		.widget_archive ul li,
+		.wp-block-archives li,
+		.wp-block-categories li,
+		.nav-menu li {
+			padding-left: 0;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+
+.widget-area .widget ul:not(.social-links-menu) li {
+	margin-bottom: 10px;
+	line-height: 2;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {
+	padding: 7px 21px;
+}
+
+.site-content > .wrapper {
+	padding: 42px 0;
+}
+
+.site-content .wrapper > .sidebar {
+	margin-top: 42px;
+}
+
+.author-info {
+	padding: 55px;
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-title {
+	margin-bottom: 14px;
+}
+
+#testimonial-content-section .section-content-wrapper .entry-container .entry-content, 
+#testimonial-content-section .section-content-wrapper .entry-container .entry-summary, 
+.featured-content-section .entry-container {
+    padding: 35px;
+}
+
+.team-content-wrapper .entry-container {
+	padding: 0 35px 35px;
+}
+
+#testimonial-content-section .section-content-wrapper .entry-container .entry-content, 
+#testimonial-content-section .section-content-wrapper .entry-container .entry-summary {
+	padding-top: 70px;
+}
+
+.widget-column {
+	padding: 21px 30px;
+}
+
+.footer-widget-area {
+	padding-bottom: 21px;
+	padding-top: 21px;
+}
+
+.single .site-main .entry-header,
+.page .site-main .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	margin: 0 0 35px;
+}
+
+.comments-area {
+    margin-top: 42px;
+}
+
+.author-avatar,
+.author-description,
+.comment-reply-title {
+	margin: 0 0 24px;
+}
+
+.widget {
+    margin: 0 0 42px;
+}
+
+.sidebar.widget-area section.widget {
+	margin-bottom: 0;
+}
+
+.sidebar .widget .widget-wrap {
+	margin-bottom: 0;
+	padding: 17px 0;
+}
+
+.sidebar .widget:last-child {
+	.widget-wrap {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.widget .widget-title,
+.widget .wp-block-group h2 {
+	margin: 0 0 28px;
+}
+
+.content-area .section-heading-wrapper {
+	padding-top: 0;
+}
+
+.footer-contact {
+    margin-top: 42px;
+}
+
+.widget li > ul,
+.widget li > ol {
+	clear: both;
+	margin-top: 7px;
+	margin-left: 14px;
+}
+
+.section-content-wrapper {
+	padding: 0 30px;
+}
+
+.inner-section-content-wrapper {
+	padding: 0 30px 42px;
+}
+
+.skill-section .section-content-wrapper {
+    padding: 42px 30px 7px 30px;    
+}
+
+.site-content .section-content-wrapper {
+	padding: 0;
+}
+
+.section-content-wrapper .post-thumbnail,
+.section-content-wrapper .post-thumbnail-background {
+	margin: 0 0 14px;
+}
+
+.logo-slider-section .section-content-wrapper .entry-title {
+	margin-bottom: 0;
+}
+
+.section-content-wrapper .entry-header .entry-meta {
+	padding-top: 0;
+}
+
+.entry-meta {
+	margin-bottom: 7px;
+	margin-top: 0;
+	padding: 0;
+}
+
+.service-section {
+	.entry-meta {
+		margin-bottom: 0;
+		margin-top: 7px;
+	}
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-meta {
+	margin-top: 9px;
+}
+
+.archive-posts-wrapper .section-content-wrapper .entry-header .entry-title + .entry-meta {
+    margin-bottom: 0;
+}
+
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content,
+.section-content-wrapper.latest-package-wrapper .entry-summary,
+.section-content-wrapper.latest-package-wrapper .entry-content,
+.more-button,
+.contact-us-form form,
+.latest-package-wrapper .hentry-inner .button-wrap .price + .more-button {
+    margin: 14px 0 0;
+    width: 100%;
+}
+
+.latest-trip-section .price,
+.latest-package-wrapper .entry-header .entry-title {
+	margin-bottom: 14px;
+}
+
+.section-content-wrapper .entry-container > :first-child {
+	margin-top: 0;
+}
+
+.section-content-wrapper .hentry-inner > :last-child,
+.section-content-wrapper .entry-container > :last-child {
+	margin-bottom: 0;
+}
+
+.woocommerce-posts-wrapper {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.singular-content-wrap .entry-header .entry-meta {
+	margin: 21px 0 0 0;
+}
+
+.more-link,
+.entry-content button,
+.entry-summary button {
+	clear: both;
+}
+
+.section-description {
+    margin-top: 14px;
+       p {
+        margin-bottom: 0;
+    }
+}
+
+.promotion-section .section-title-wrapper {
+	margin-bottom: 14px;
+}
+
+.custom-header-content > :last-child,
+.singular-content-wrap >:last-child,
+.site-header-text > :last-child,
+.section-description-wrapper > :last-child,
+.taxonomy-description-wrapper > :last-child,
+.widget-column > :last-child,
+.widget-area .widget .hentry:last-child,
+.widget-area .widget .hentry .entry-meta,
+.widget-area > :last-child,
+.widget > :last-child,
+.widget li:last-child,
+.widget embed:last-child,
+.widget iframe:last-child,
+.widget object:last-child,
+.widget video:last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child,
+.widget_nav_menu ul,
+#colophon .widget li:last-child {
+	margin-bottom: 0;
+}
+
+.widget-area .ewfeaturedpostpageimage .featured-image {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.custom-logo {
+	margin: 0 auto;
+}
+
+.has-header-video .custom-header-content {
+	padding-bottom: 178px;
+}
+
+.entry-title {
+	margin: 0;
+}
+
+.widget-area .entry-meta {
+	margin-top: 0;
+}
+
+.taxonomy-description-wrapper,
+.countdown-content-wrapper .content-right #clock .count-down .countdown-label {
+	margin-top: 7px;
+}
+
+#testimonial-content-section.has-post-thumbnail .entry-container {
+	padding: 84px 30px 42px;
+}
+
+.post-navigation div + div,
+.posts-navigation div + div {
+	margin-top: 30px;
+}
+
+.post-navigation {
+	padding-top: 7px;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 7px 14px;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.posts-navigation a,
+#content #infinite-handle span button,
+.header-media .more-link,
+#feature-slider-section .more-link,
+#hero-section .more-link,
+.promotion-section .more-link {
+	padding: 13px 27px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	padding: 12px 14px;
+}
+
+.site-footer-menu .wrapper > #social-footer-navigation {
+    margin-bottom: 70px;
+}
+
+.above-footer {
+	padding-bottom: 0;
+}
+
+.sidebar .ewnewsletter .widget-inner-wrap,
+.sidebar .ewnewsletter .widget-inner {
+	padding: 0;
+}
+
+.custom-header-form {
+	padding: 35px;
+}

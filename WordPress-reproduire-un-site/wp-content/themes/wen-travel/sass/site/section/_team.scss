@@ -1,0 +1,84 @@
+/**
+ * 7.3.14 - Team Content Section
+ */
+
+.team-content-wrapper .post-thumbnail,
+.team-content-wrapper .entry-title {
+    margin: 0;
+}
+
+.team-content-wrapper.section-content-wrapper {
+    
+    .hentry-inner {
+        position: relative;
+
+        &:before {
+            bottom: 0;
+            content: "";
+            height: 69%;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+        }
+
+        &:hover {
+            .social-links-menu li {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .post-thumbnail {
+            height: 260px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 260px;
+            z-index: 9;
+
+            img {
+                @include border(50%);
+                border: 10px solid;
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        } 
+
+        .entry-container {
+            position: static;
+            text-align: center;
+
+            .entry-header,
+            .artist-social-profile {
+                position: relative;
+                z-index: 99;
+            }
+            .entry-meta {
+                font-style: italic;
+                margin-bottom: 0;
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+.team-content-wrapper .entry-summary,
+.team-content-wrapper .entry-content {
+    margin: 14px 0 0;
+    padding-right: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.team-content-wrapper .artist-social-profile {
+    margin-top: 7px;
+
+    .social-links-menu {
+        @include flex;
+        @include flex-justify-center;
+        li {
+            opacity: 1;
+        }
+    }
+}

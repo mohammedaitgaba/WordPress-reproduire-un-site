@@ -1,0 +1,131 @@
+/**
+ * 7.3.8 - Newsletter
+ */
+
+#footer-newsletter .footer-newsletter {
+
+    .section-heading-wrapper {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 35px;
+    }
+}
+
+#footer-newsletter .wrapper {
+    .section-description {
+        font-size: 20px;
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: 0;
+        margin-bottom: 0;
+        text-transform: none;
+    }
+}
+
+#footer-newsletter .ewnewsletter .widget-inner {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#footer-newsletter .ewnewsletter .widget-inner-wrap {
+    padding: 0;
+}
+
+#footer-newsletter .widget {
+    padding: 42px 30px;
+    margin-bottom: 0;
+    background-position: center center;
+}
+
+.widget-area:not(.sidebar) .ew-newsletter .section-heading-wrapper {
+    padding: 0;
+    text-align: left;
+}
+
+#footer-newsletter .hentry.ew-newsletter-wrap.newsletter-action.custom {
+    input[type="text"] {
+        margin-bottom: 15px;
+
+        @include media(mobile_horizontal) {
+            margin-right: 4%;
+            width: 48%;
+            float: left;
+        }
+    }
+
+    input#subbox2 {
+        margin-right: 0;
+    }
+    
+    input[type="text"] ~ input[type="submit"] {
+        position: relative;
+        left: 0;
+        margin-top: 0;
+        padding: 12px 25px;
+        right: auto;
+        top: 0;
+    }
+
+    input[type="text"] ~ input[type="email"] {
+        padding-right: 14px;
+    }
+}
+
+#footer-newsletter {
+    .wrapper {
+        max-width: 100%;
+    }
+    .ewnewsletter {
+        .widget-wrap {
+            overflow: hidden;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .hentry {
+            form {
+                input {
+                    @include media(mobile) {
+                        margin-top: 0;
+                    }
+                }
+
+                input[type="submit"] {
+                    margin-bottom: 0;
+                    margin-left: 0;
+                    margin-top: 0;
+                    margin-right: auto;
+                    position: relative;
+                    right: auto;
+                    top: auto;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+#footer-newsletter .ewnewsletter .hentry form > input[type="text"] ~ input[type="email"] + input[type="submit"] {
+    margin-left: 0;
+    @include border(45px);
+    position: relative;
+}
+
+#footer-newsletter .ewnewsletter .hentry form {
+    @include flex;
+    @include flex-wrap;
+    justify-content: space-between;
+
+    input {
+        width: 100%;
+    }
+}
+
+#footer-newsletter .ewnewsletter .hentry form > input[type="text"] ~ input[type="email"] {
+    padding-right: 14px;
+}
+
+#footer-newsletter .ewnewsletter .hentry form input#subbox1,
+#footer-newsletter .ewnewsletter .hentry form input#subbox2,
+#footer-newsletter .ewnewsletter .hentry form > input[type="text"] ~ input[type="email"], #footer-newsletter .ewnewsletter .hentry form input[type="text"] > input[type="text"] ~ input#subbox {
+    margin-bottom: 35px;
+}

@@ -1,0 +1,133 @@
+/**
+ * 6.6 - Content
+ */
+
+#page {
+    margin: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.boxed-layout #page {
+    max-width: 1600px;
+}
+
+.section:nth-child(even) {
+    + .site-content {
+        border-top: 1px solid;
+    }
+}
+
+.site-content {
+    + .section:nth-child(even) {
+        border-top: 1px solid;
+    }
+}
+
+.singular-content-wrap {
+    .hentry {
+        padding: 0;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.single .site-main .post-thumbnail,
+.page .site-main .post-thumbnail {
+    margin-top: 0;
+}
+
+.home #content #infinite-handle {
+    padding: 0;
+}
+
+.archive-post-wrap .hentry {
+    float: none;
+}
+
+.header-media .wrapper,
+#footer-instagram .wrapper {
+    width: 100%;
+    max-width: 1920px;
+}
+
+.no-sidebar .content-area {
+    margin: 0 auto;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+.sidebar .widget-title,
+.sidebar .widget .wp-block-group h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sidebar .widget p {
+    margin-bottom: 28px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.archive-post-wrap .hentry-inner {
+    > div {
+        width: 100%;
+    }
+}
+
+.archive-post-wrap .hentry {
+    padding: 0;
+    z-index: 0;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .post-thumbnail-background {
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+.wp-block-calendar a {
+    text-decoration: none;
+}
+
+.archive-post-wrap .hentry:last-of-type {
+    margin-bottom: 0;
+}
+
+.entry-content a:not(.more-link):not(.button):not(.fa):not(.far):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):not(.wp-travel-post-info .post-title a):not(.travel-info .value a):not(.wp-travel-send-enquiries):not(.wp-travel-keyword a),
+.entry-summary a:not(.more-link):not(.button):not(.fa):not(.far):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):not(.wp-travel-post-info .post-title a):not(.travel-info .value a):not(.wp-travel-send-enquiries):not(.wp-travel-keyword a),
+.ew-about a:not(.more-link):not(.button):not(.fa):not(.far):not(.remove):not(.wp-playlist-caption),
+.recentcomments a:not(.more-link):not(.button):not(.fa):not(.far):not(.remove):not(.wp-playlist-caption),
+.widget_text a:not(.more-link):not(.button):not(.fa):not(.far):not(.remove):not(.wp-playlist-caption) {
+    text-decoration: underline;
+}
+
+.entry-content a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):hover,
+.entry-content a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):focus,
+.entry-summary a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):hover,
+.entry-summary a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(.post-page-numbers):not(table a):focus,
+.entry-content a.wp-block-button__link:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(table a):not(.post-page-numbers),
+.entry-summary a.wp-block-button__link:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):not(.wp-block-file__button):not(table a):not(.post-page-numbers),
+.recentcomments a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):hover,
+.recentcomments a:not(.more-link):not(.button):not(.fa):not(.remove):not(.wp-playlist-caption):focus,
+.ew-about a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.widget_text a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.ew-about a:not(.more-link):not(.button):not(.fa):not(.remove):focus,
+.widget_text a:not(.more-link):not(.button):not(.fa):not(.remove):focus {
+    text-decoration: none;
+}

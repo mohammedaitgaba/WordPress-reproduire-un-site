@@ -1,0 +1,97 @@
+/**
+ * 7.3.7 - Latest Trip
+ */
+
+ .latest-trip-section {
+    .hentry-inner {
+        .post-thumbnail {
+            margin-bottom: 0;
+            .entry-header {
+                bottom: 0;
+                padding: 35px;
+                width: 100%;
+
+                del {
+                    margin-right: 5px;
+                }
+
+                .entry-title a,
+                .price {
+                    position: relative;
+                }
+            }
+        }
+        .entry-summary,
+        .entry-content {
+            border: 1px solid;
+            border-top: 1px solid;
+            margin-top: 0;
+            padding: 35px 42px;
+
+            .more-button {
+                margin-top: 0;
+            }
+        }
+
+        .entry-meta {
+            margin: 0;
+            li {
+                border-bottom: 0;
+                border-top: 1px solid;
+                a {
+                     letter-spacing: 0;
+                }
+            }
+        }
+    }
+ }
+
+ .latest-trip-section {
+    .meta-wrapper {
+        border-bottom: 1px solid;
+        + .entry-content,
+        + .entry-summary {
+            border-top: 0;
+        }
+        label {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.trip-content-wrapper .hentry-inner p {
+    margin-bottom: 21px;
+}
+
+.section-content-wrapper.trip-content-wrapper:before {
+    content: none;
+}
+
+.latest-package-wrapper .hentry-inner {
+    .post-thumbnail {
+        margin-bottom: 0;
+    }
+
+    .entry-container {
+        padding: 35px;
+        text-align: center;
+        border: 1px solid;
+        width: 100%;
+    }
+
+    .button-wrap {
+        padding: 35px;
+        text-align: center;
+        border: 1px solid;
+        .label {
+            text-transform: capitalize;
+        }
+        .amount {
+            display: block;
+            line-height: 1.2;
+        }
+        .more-button {
+            margin-top: 0;
+        }
+    }
+}

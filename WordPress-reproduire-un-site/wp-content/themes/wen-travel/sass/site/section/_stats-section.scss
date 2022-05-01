@@ -1,0 +1,40 @@
+/**
+ * 7.3.13 - Stats
+ */
+
+.stats-content-wrapper {
+    .hentry {
+        .post-thumbnail {
+            max-width: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hentry-inner {
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            overflow: hidden;
+            &.has-bg-img {
+                padding: 56px 0 42px;
+            }
+        }
+        
+
+       
+    }
+}
+
+.stats-content-wrapper .entry-container {
+    position: relative;
+    text-align: center;
+    z-index: 99;
+
+    .more-button {
+        display: block;
+    }
+}
+
+.header-media + .section .section-content-wrapper:before {
+    display: none;
+}

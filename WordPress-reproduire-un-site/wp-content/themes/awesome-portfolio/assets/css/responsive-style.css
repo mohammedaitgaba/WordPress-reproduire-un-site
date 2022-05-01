@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1920px){
+	section.cww-main-banner{
+		    height: 83vh;
+	}
+}
+@media only screen and (max-width: 1440px){
+	.shape-wrapper svg{
+		height: 575px;
+	}
+
+}
+
+@media only screen and (max-width: 1366px){
+	 section.cww-main-banner .container {
+	 	padding-top: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.container,
+	section.cww-main-banner .container {
+	    padding: 0 45px;
+	}
+	
+	.shape-wrapper svg {
+    	width: 580px;
+    }
+}
+@media only screen and (max-width: 768px){
+	section.cww-main-banner .content-wrapp {
+		background: transparent;
+		padding: 0;
+		flex: 1 1 48%;
+	}
+	.shape-wrapper svg {
+	    width: 350px;
+	    height: 350px;
+	}
+
+	section.cww-main-banner {
+	    height: 60vh;
+	}
+	
+}
+
+
+@media only screen and (max-width: 425px){
+	section.cww-main-banner {
+	    height: auto;
+	}
+	.shape-wrapper svg {
+	    width: 300px;
+	    height: 300px;
+	}	
+
+}
+
+
+@media only screen and (max-width: 768px){
+.home header.site-header ul li a {
+    color: #333;
+}
+
+}

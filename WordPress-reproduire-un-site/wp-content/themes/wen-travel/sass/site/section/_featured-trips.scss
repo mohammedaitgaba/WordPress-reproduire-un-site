@@ -1,0 +1,78 @@
+/**
+ * 7.3.4 - Featured Trips
+ */
+
+#wp-travel-featured-trip-section {
+	.featured-trip-content-wrapper {
+		.post-thumbnail {
+			margin-bottom: 0;
+		}
+
+		.entry-container .amount {
+		 	font-weight: 700;
+		 	margin-left: 0;
+		 	margin-right: 5px;
+		}		
+	}
+}
+
+.featured-trip-section.section .owl-carousel .owl-nav .owl-prev, 
+.featured-trip-section.section .owl-carousel .owl-nav .owl-next {
+	opacity: 1;
+	position: relative;
+}
+
+.featured-trip-section.section .owl-carousel .owl-nav .owl-prev {
+	margin-right: 10px;
+}
+
+.featured-trip-section .title_price_wrapper,
+.latest-trip-section .hentry-inner .post-thumbnail .entry-header,
+.collection-content-section .entry-container,
+.attraction-content-section .entry-container {
+	&:before {
+		background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+		content: "";
+		opacity: 1;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+	}
+}
+
+ .featured-trip-section {
+ 	.title_price_wrapper {
+	 	bottom: 0;
+	 	left: 0;
+ 		padding-bottom: 21px;
+ 		padding-left: 21px;
+ 		position: absolute;
+ 		width: 100%;
+
+ 		.entry-title,
+ 		.wp-travel-average-review {
+ 			position: relative;
+ 			z-index: 9;
+ 		}
+ 	}
+
+	.inner-container {
+ 		border-width: 1px 1px 1px 1px;
+ 		border-style: solid;
+ 		padding: 0 35px 35px;
+ 	}
+ }
+
+  .featured-trip-section {
+	  .hentry-inner {
+		  &:hover,
+		  &:focus {
+			  .title_price_wrapper {
+					padding-bottom: 50px;
+			  }
+		  }
+	  }
+  }

@@ -1,0 +1,140 @@
+/**
+ * 6.0 - Modules
+ */
+
+.section {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.section-heading-wrapper {
+	display: block;
+	max-width: 660px;
+	padding-bottom: 35px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.section-subtitle {
+	text-transform: uppercase;
+}
+
+.featured-content-section .hentry-inner:hover,
+.service-section .hentry-inner:hover,
+.portfolio-content-section.itineraries .hentry-inner:hover,
+.portfolio-content-section.destination .hentry-inner:hover {
+	box-shadow: 6px 6px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+#testimonial-content-section .owl-slideshow {
+	overflow: hidden;
+}
+
+.trip-header,
+.meta-wrapper {
+	.entry-meta {
+		margin-bottom: 0;
+	}
+	.list-inline {
+		@include flex-justify-space-between;
+		li {
+			border-width: 0 1px 0 0;
+			border-style: solid;
+			font-weight: 700;
+			margin: 0;
+			padding: 7px 5px;
+			text-align: center;
+			width: 33.333%;
+			&:first-child {
+				border-left-width: 1px;
+			}
+
+			.icon {
+				font-weight: 700;
+				margin-right: 5px;
+			}
+			a {
+				font-weight: 700;
+				letter-spacing: 1px;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.latest-package-wrapper .entry-meta {
+	.list-inline {
+		li {
+			font-weight: 700;
+			.icon {
+				font-weight: 700;
+				margin-right: 5px;
+			}
+			a {
+				font-weight: 700;
+				letter-spacing: 0;
+				opacity: 1;
+			}
+		}
+		@include flex-justify-center;
+	}
+	font-weight: 700;
+	a {
+		font-weight: 700;
+		letter-spacing: 0;
+		opacity: 1;
+	}
+	.vcard {
+		opacity: 1;
+	}
+}
+
+/*-------------------------------------------------------------
+## accessibility
+--------------------------------------------------------------*/
+@import 'accessibility';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'alignments';
+
+/*--------------------------------------------------------------
+## breadcrumbs
+--------------------------------------------------------------*/
+@import 'breadcrumbs';
+
+/*--------------------------------------------------------------
+## captions
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## clearings
+--------------------------------------------------------------*/
+@import 'clearings';
+
+/*--------------------------------------------------------------
+## content
+--------------------------------------------------------------*/
+@import 'content';
+
+/*--------------------------------------------------------------
+## media
+--------------------------------------------------------------*/
+@import 'media';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'scroll-up';
+
+/*--------------------------------------------------------------
+## alignments
+--------------------------------------------------------------*/
+@import 'sidebar';

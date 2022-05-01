@@ -1,0 +1,1499 @@
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+
+/**
+ * 10.0 - Color
+ */
+
+
+/* Background Color */
+
+body {
+    background-color: map-get($theme-background-color, background-color);
+}
+
+
+/* Page Background Color */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+.section:nth-child(even) + .portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container,
+.section:nth-child(even) + .portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container,
+.section:nth-child(even) + .featured-content-section .hentry-inner .entry-container,
+.section:nth-child(even) + .latest-package-section .latest-package-wrapper .hentry-inner .button-wrap,
+.section:nth-child(even)+.team-content-section .hentry-inner:before,
+.section:nth-child(even)+.service-section .hentry-inner,
+.section:nth-child(even)+.featured-trip-section .hentry .entry-container,
+.section:nth-child(even)+#contact-section .entry-container .inner-container,
+.section:nth-child(even)+#testimonial-content-section .section-content-wrapper .hentry-inner .entry-content,
+.section:nth-child(even)+#testimonial-content-section .section-content-wrapper .hentry-inner .entry-summary,
+.home .header-media.content-frame .custom-header-content,
+.demo_store .woocommerce-store-notice__dismiss-link,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link:hover,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link:focus,
+.select2-container--default .select2-selection--single,
+.screen-reader-text:focus,
+.boxed-layout .site,
+.ui-state-active,
+.transparent-header.navigation-classic .main-navigation a:before,
+.site-header-cart .cart-contents .count,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+.featured-content-wrapper .hentry-inner {
+    background-color: map-get($theme-background-color, background-primary-color);
+}
+
+.section:nth-child(even)+.testimonial-content-section .entry-content:after,
+.section:nth-child(even)+.team-content-section .team-content-wrapper.section-content-wrapper .hentry-inner .post-thumbnail img {
+    border-color: map-get($theme-background-color, background-primary-color);
+}
+
+
+/* Tertiary Background Color */
+
+.header-style-one #primary-search-wrapper .menu-inside-wrapper,
+.portfolio-content-wrapper .filter-button-group button.is-checked,
+.collection-content-wrapper .filter-button-group button.button.is-checked,
+.attraction-content-wrapper .filter-button-group button.button.is-checked,
+.countdown-content-wrapper .content-right #clock {
+    background-color: map-get($theme-background-color, background-tertiary-color);
+}
+
+/* Secondary Background Color */
+
+#site-header-top-menu,
+.comment-container,
+.section:nth-child(odd),
+.gallery-caption,
+.wp-block-archives li span::after,
+.wp-block-categories li span::after,
+.sidebar .widget_categories ul li span::after, 
+.sidebar .widget_archive ul li span::after,
+.tiled-gallery-item .tiled-gallery-caption,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .entry-container,
+.portfolio-content-section.destination .portfolio-content-wrapper .entry-container,
+.section:nth-child(odd) + .portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container,
+.section:nth-child(odd) + .portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container,
+.section:nth-child(odd) + .featured-content-section .hentry-inner .entry-container,
+.section:nth-child(odd)+.service-section .hentry-inner,
+.section:nth-child(odd)+.team-content-section .hentry-inner:before,
+.section:nth-child(odd)+.featured-trip-section .hentry .entry-container,
+.section:nth-child(odd)+#testimonial-content-section .section-content-wrapper .hentry-inner .entry-content,
+.section:nth-child(odd)+#testimonial-content-section .section-content-wrapper .hentry-inner .entry-summary,
+.section:nth-child(odd)+#contact-section .entry-container .inner-container,
+.footer-newsletter input:not([type="submit"]),
+.custom-header-form input:not([type="submit"]),
+.custom-header-form textarea,
+.team-content-wrapper .entry-container,
+.skill-section .section-content-wrapper,
+#primary-search-wrapper .menu-inside-wrapper,
+.menu-inside-wrapper,
+.mobile-social-search,
+mark,
+.custom-header,
+ul.tabs.wc-tabs li.active a,
+.woocommerce-Tabs-panel,
+.shop_table thead th,
+ul.wc_payment_methods.payment_methods.methods li,
+.comment-respond,
+.site-header-cart .widget_shopping_cart,
+pre,
+.widget .ui-tabs .ui-tabs-panel,
+.wp-block-pullquote.is-style-solid-color,
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd),
+.section:nth-child(odd)+.testimonial-content-section .entry-content,
+.latest-package-wrapper .hentry-inner .button-wrap,
+.wp-travel-default-article .wp-travel-entry-content-wrapper .description-right,
+.wp-travel-itinerary-items .wp-travel-post-wrap-bg,
+.wp-travel-itinerary-items ul.wp-travel-itinerary-list.itinerary-3-per-row li,
+.wp-travel-related-posts .wp-travel-itinerary-items .wp-travel-itinerary-list[class*="itinerary-"] li {
+    background-color: map-get($theme-background-color, background-secondary-color);
+}
+
+@include media(desktop) {
+    #site-header-top-menu {
+        background-color: transparent;
+    }
+}
+
+.section:nth-child(odd)+.testimonial-content-section .entry-content:after,
+.section:nth-child(odd)+.team-content-section .team-content-wrapper.section-content-wrapper .hentry-inner .post-thumbnail img {
+    border-color: map-get($theme-background-color, background-secondary-color);
+}
+
+@include media(mobile_horizontal) {
+    .comment-body .comment-container:before {
+        border-right-color: map-get($theme-background-color, background-secondary-color);
+    }
+}
+
+.comment-container:before {
+    border-bottom-color: map-get($theme-background-color, background-secondary-color);
+}
+
+@include media(desktop) {
+    .navigation-classic .site-header .sub-menu,
+    .navigation-classic .site-header .children {
+        background-color: map-get($theme-background-color, background-secondary-color);
+    }
+}
+
+
+/* Footer Background Color */
+
+#colophon {
+    background-color: map-get($theme-background-color, background-footer-color);
+}
+
+
+/* Main Text Color */
+
+body,
+input,
+select,
+optgroup,
+textarea,
+blockquote,
+.list-inline li a,
+.list-inline li,
+.latest-package-wrapper .entry-header .entry-meta a,
+.latest-package-wrapper .entry-header .entry-meta,
+.wpcf7-response-output,
+.wpcf7-list-item-label,
+label,
+.job-label,
+.pagination .page-numbers.dots,
+.navigation.pagination .next,
+.navigation.pagination .prev,
+.navigation.pagination .previous,
+input,
+select,
+optgroup,
+textarea,
+.portfolio-content-section.itineraries .entry-container,
+.portfolio-content-section.destination .entry-container,
+.section-description-wrapper,
+.section-title-wrapper+.section-description,
+.section-heading-wrapper>.section-description,
+.section-title+.section-description,
+.custom-header-content-wrapper .more-link,
+.skill-section.has-background-image .entry-summary,
+.skill-section.has-background-image .entry-content,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+.sidebar .widget-wrap p,
+.promotion-section .play-video .play-button:hover:before,
+.promotion-section .play-video .play-button:focus:before,
+.entry-container .entry-content,
+.entry-container .entry-summary,
+.wp-block-code {
+    color: map-get($theme-color, primary-color);
+}
+
+::-moz-placeholder { /* Chrome/Opera/Safari */
+    color: map-get($theme-color, primary-color);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: map-get($theme-color, primary-color);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: map-get($theme-color, primary-color);
+}
+
+:-ms-input-placeholder { /* IE 10+ */ 
+    color: map-get($theme-color, primary-color);
+}
+
+aside.widget-area + div#site-generator:before {
+    background-color: map-get($theme-color, primary-color);
+}
+
+/*  Tranparent Header Text Color */
+
+.transparent-header.has-header-image .site-title a,
+.transparent-header.has-header-image .site-description {
+    color: map-get($theme-color, color-white-light);
+}
+
+.site-description {
+    color: map-get($theme-color, primary-color);
+}
+
+/*  Header Navigation color */
+
+.transparent-header.has-header-media.has-header-image,
+.transparent-header.slider-after-header {
+    .menu-toggle {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+@include media(tablet) {
+    .transparent-header.has-header-media #site-header-cart-wrapper .cart-contents,
+    .transparent-header.slider-after-header #site-header-cart-wrapper .cart-contents {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+@include media(large) {
+    .transparent-header.has-header-image:not(.header-style-two).has-header-media header .social-navigation li a,
+    .transparent-header.has-header-image:not(.header-style-two).slider-after-header header .social-navigation li a,
+    .transparent-header.has-header-media.has-header-image.navigation-classic .main-navigation ul:not(.sub-menu):not(.children)>li>a,
+    .transparent-header.slider-after-header.navigation-classic .main-navigation ul:not(.sub-menu):not(.children)>li>a {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+@include media(desktop) {
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-right ul li a,
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-left ul li a,
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-left ul li,
+    .transparent-header.slider-after-header .top-main-wrapper .header-top-right ul li a,
+    .transparent-header.slider-after-header .top-main-wrapper .header-top-left ul li a,
+    .transparent-header.slider-after-header .top-main-wrapper .header-top-left ul li {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+.transparent-header.navigation-classic.has-header-media .main-navigation .nav-menu>li>a:before,
+.transparent-header.navigation-classic.slider-afer-header .main-navigation .nav-menu>li>a:before,
+.widget_categories ul li span:after, 
+.widget_archive ul li span:after,
+.countdown-content-wrapper .content-right #clock .count-down > span:after {
+    background-color: map-get($theme-color, color-white-light);
+}
+
+
+/*  Header Navigation hover color */
+.transparent-header.has-header-media.has-header-image .menu-toggle:hover, 
+.transparent-header.has-header-media.has-header-image .menu-toggle:focus, 
+.transparent-header.slider-after-header .menu-toggle:hover,
+.transparent-header.slider-after-header .menu-toggle:focus,
+.transparent-header.has-header-media #site-header-cart-wrapper .cart-contents:hover, 
+.transparent-header.has-header-media #site-header-cart-wrapper .cart-contents:focus, 
+.transparent-header.slider-after-header #site-header-cart-wrapper .cart-contents:hover,
+.transparent-header.slider-after-header #site-header-cart-wrapper .cart-contents:focus,
+button.dropdown-toggle .icon:hover,
+button.dropdown-toggle .icon:focus,
+.transparent-header.slider-after-header .top-main-wrapper .header-top-right ul li a:hover,
+.transparent-header.slider-after-header .top-main-wrapper .header-top-right ul li a:focus,
+.transparent-header.slider-after-header .top-main-wrapper .header-top-left ul li a:hover,
+.transparent-header.slider-after-header .top-main-wrapper .header-top-left ul li a:focus {
+    color: map-get($theme-color, color-white-light);
+}
+
+.navigation-default.transparent-header .menu-inside-wrapper .main-navigation ul > li > a:hover,
+.navigation-default.transparent-header .menu-inside-wrapper .main-navigation ul > li > a:focus,
+.transparent-header.slider-after-header.navigation-classic .main-navigation ul ul li.current_page_item>a,
+.transparent-header.has-header-media.navigation-classic .main-navigation ul ul li.current-menu-item>a {
+    color: map-get($theme-color, theme-link-hover-color );
+}
+
+@include media(desktop) {
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-right ul li a:hover,
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-right ul li a:focus,
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-left ul li a:hover,
+    .transparent-header.has-header-media.has-header-image .top-main-wrapper .header-top-left ul li a:focus {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+@include media(large) {
+    .transparent-header.has-header-image:not(.header-style-two).has-header-media header .social-navigation li a:hover,
+    .transparent-header.has-header-image:not(.header-style-two).has-header-media header .social-navigation li a:focus,
+    .transparent-header.has-header-image:not(.header-style-two).slider-after-header header .social-navigation li a:hover,
+    .transparent-header.has-header-image:not(.header-style-two).slider-after-header header .social-navigation li a:focus,
+    .transparent-header.slider-after-header.navigation-classic .menu-inside-wrapper .main-navigation ul li.current_page_item>a,
+    .transparent-header.has-header-media.navigation-classi .menu-inside-wrapperc .main-navigation ul li.current-menu-item>a,
+    .transparent-header.has-header-media.navigation-classic .main-navigation ul:not(.sub-menu):not(.children) > li.current-menu-item>a, 
+    .transparent-header.slider-after-header.navigation-classic .main-navigation ul:not(.sub-menu):not(.children) > li.current-menu-item>a,
+    .transparent-header.has-header-media.has-header-image.navigation-classic .menu-inside-wrapper .main-navigation ul:not(.sub-menu):not(.children) > li > a:hover,
+    .transparent-header.has-header-media.has-header-image.navigation-classic .menu-inside-wrapper .main-navigation ul:not(.sub-menu):not(.children) > li > a:focus,
+    .transparent-header.slider-after-header.navigation-classic .menu-inside-wrapper .main-navigation ul:not(.sub-menu):not(.children) > li > a:hover,
+    .transparent-header.slider-after-header.navigation-classic .menu-inside-wrapper .main-navigation ul:not(.sub-menu):not(.children) > li > a:focus {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+/* Non Transparent Nav Color */
+
+.navigation-default:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a,
+header .social-navigation .menu-social-container li a {
+    color: map-get($theme-color, headline-text-color);
+}
+
+@media screen and (min-width: large) {
+    .navigation-classic:not(.transparent-header) .main-navigation ul:not(.sub-menu):not(.children)> li> a {
+        color: map-get($theme-color, headline-text-color);
+    }
+}
+
+@include media(desktop) {
+    header .top-main-wrapper .social-navigation li a,
+    .top-main-wrapper .header-top-right ul li a,
+    .top-main-wrapper .header-top-left ul li a,
+    .top-main-wrapper .header-top-left ul li {
+        color: map-get($theme-color, headline-text-color);
+    }
+}
+
+button.menu-toggle {
+    color: map-get($theme-color, color-white-light);
+}
+
+@include media(tablet) {
+    #site-header-cart-wrapper .cart-contents {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+/* Non Transparent Nav Hover Color */
+
+.navigation-classic:not(.transparent-header) .main-navigation>.nav-menu .current_page_item>a,
+.navigation-classic:not(.transparent-header) .main-navigation>.nav-menu .current-menu-item>a,
+.navigation-default:not(.transparent-header) .main-navigation>.nav-menu .current_page_item>a,
+.navigation-default:not(.transparent-header) .main-navigation>.nav-menu .current-menu-item>a,
+.navigation-default:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:hover,
+.navigation-default:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:focus,
+.navigation-classic:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:hover,
+.navigation-classic:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:focus,
+header .social-navigation .menu-social-container li a:hover,
+header .social-navigation .menu-social-container li a:focus,
+header .top-main-wrapper .social-navigation li a:focus,
+header .top-main-wrapper .social-navigation li a:hover,
+button.menu-toggle:hover,
+button.menu-toggle:focus,
+button.dropdown-toggle .icon:hover,
+button.dropdown-toggle .icon:focus,
+#site-header-cart-wrapper .cart-contents:hover,
+#site-header-cart-wrapper .cart-contents:focus,
+.top-main-wrapper .header-top-left ul li a:hover,
+.top-main-wrapper .header-top-left ul li a:focus,
+.collection-content-wrapper .filter-button-group button.button:hover,
+.collection-content-wrapper .filter-button-group button.button:focus,
+.attraction-content-wrapper .filter-button-group button.button:hover,
+.attraction-content-wrapper .filter-button-group button.button:focus {
+    color: map-get($theme-color, non-transparent-nav-hover-color);
+}
+
+@include media(large) {
+    .navigation-classic:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:hover,
+    .navigation-classic:not(.transparent-header) .menu-inside-wrapper .main-navigation ul > li > a:focus {
+    color: map-get($theme-color, non-transparent-nav-hover-color);
+    }
+}
+
+.main-navigation .nav-menu>li>a:before {
+    background-color: map-get($theme-color, color-white-light);
+}
+
+.navigation-classic .main-navigation .nav-menu>li>a:before {
+    background-color: map-get($theme-color, non-transparent-nav-hover-color);
+}
+
+/* Custom Header and Feature Slider */
+
+.has-header-image .custom-header-content-wrapper .more-link,
+.feature-slider-wrapper .entry-container .entry-title,
+.feature-slider-wrapper .entry-container .entry-title span,
+.feature-slider-wrapper .entry-container .entry-summary,
+.feature-slider-wrapper .entry-container .entry-content,
+.has-header-image .custom-header-content .site-header-text,
+.has-header-image .custom-header-content .header-media-tagline,
+.has-header-image .custom-header-content .site-header-text .entry-meta a,
+.has-header-image .custom-header-content .section-title {
+    color: map-get($theme-color, color-white-light);
+}
+
+
+/* Heading Text Color */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.comment-respond .comment-form p label,
+.section-title,
+.portfolio-section-headline .section-title,
+.special-offer-content-wrapper .section-description {
+    color: map-get($theme-color, headline-text-color);
+}
+
+@include media(tablet) {
+    .testimonials-content-wrapper.section.testimonial-wrapper .cycle-pager span,
+    #site-header-cart-wrapper a.cart-contents {
+        color: map-get($theme-color, theme-dark-color);
+    }
+}
+
+ins {
+    background-color: map-get($theme-color, headline-text-color);
+}
+
+
+/* Link Color */
+
+a,
+.textwidget ul li .icon,
+::marker,
+.entry-container .amount,
+.latest-package-wrapper .amount,
+.wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .trip-price ins,
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited,
+.left-content .price-offer .price-per-person .price,
+#wp-travel-featured-trip-section .featured-trip-content-wrapper .hentry .entry-container .amount,
+.social-search-wrapper .menu-social-container li a,
+.sidebar nav.social-navigation ul li a:hover,
+.sidebar nav.social-navigation ul li a:focus,
+.screen-reader-text:focus,
+td#today,
+.toggled-on.active:before,
+.comment-respond .comment-form p.is-focused label,
+.contact-section.section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li a,
+.nav-title,
+.post-title,
+.woocommerce.has-header-image .woocommerce-breadcrumb a:hover,
+.woocommerce.has-header-image .woocommerce-breadcrumb a:focus,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .wp-detail-review-wrap .wp-travel-trip-detail .trip-price span,
+.wp-travel-itinerary-items .wp-travel-post-wrap-bg .trip-price span + span,
+.wp-travel-itinerary-items .wp-travel-post-wrap-bg .trip-price .wp-travel-trip-currency {
+    color: map-get($theme-color, theme-link-color);
+}
+
+
+/* Link Hover Color */
+
+a,
+.site-title a,
+.site-info a,
+.portfolio-content-wrapper .hentry .entry-container .entry-meta time,
+.latest-trip-section .hentry-inner .post-thumbnail .entry-header .entry-title a,
+.navigation-classic .menu-inside-wrapper .main-navigation ul > li > a:hover,
+.navigation-classic .menu-inside-wrapper .main-navigation ul > li > a:focus,
+.has-background-image .portfolio-content-wrapper .filter-button-group button:not(.is-checked),
+.featured-trip-section .entry-title a,
+.collection-content-section .entry-title a,
+.attraction-content-section .entry-title a,
+.featured-content-section .section-content-wrapper .post-thumbnail .entry-title a,
+.collection-content-wrapper .entry-meta a,
+.attraction-content-wrapper .entry-meta a,
+.featured-content-section .section-content-wrapper .post-thumbnail .entry-meta a,
+.top-main-wrapper .header-top-right ul li a,
+.top-main-wrapper .header-top-left ul li a,
+.play-button-text,
+.navigation-classic .menu-inside-wrapper .main-navigation ul>li>a,
+.wp-playlist-tracks .wp-playlist-caption,
+#site-header-cart-wrapper a.cart-contents,
+.woocommerce-loop-product__title,
+span.price span.woocommerce-Price-amount,
+button.dropdown-toggle,
+.site-header-menu .menu-inside-wrapper .nav-menu li button,
+button#wp-custom-header-video-button,
+body .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu ul .current_page_item>a,
+.menu-social-container a,
+.slider-content-wrapper .entry-container .entry-container-wrap .entry-title a,
+.social-search-wrapper .menu-social-container li a,
+#site-header-cart-wrapper a.cart-contents,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a {
+    &:hover,
+    &:focus {
+        color: map-get($theme-color, theme-link-hover-color);
+    }
+}
+
+@include media(tablet) {
+    a.cart-contents,
+    button.menu-toggle {
+        &:hover,
+        &:focus {
+            color: map-get($theme-color, theme-link-hover-color);
+        }
+    }
+}
+
+/* Secondary Link Color */
+.site-title a,
+.top-main-wrapper .header-top-right ul li a,
+.top-main-wrapper .header-top-left ul li,
+.top-main-wrapper .header-top-left ul li a,
+a.cart-contents,
+.portfolio-content-wrapper .filter-button-group button,
+.entry-title a,
+button.menu-toggle,
+.menu-toggle,
+.site-header-cart .cart-contents,
+.drop-cap:first-letter,
+.main-navigation .nav-menu>li a,
+#contact-section.has-background-image .entry-container .entry-title,
+.author-name a,
+.comments-title,
+.comment-reply-title,
+.post-navigation .nav-title,
+.left-content .price-offer .offer-lists a,
+.portfolio-content-section.itineraries  .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.portfolio-content-section.destination  .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.header-media.content-frame .custom-header-content h2,
+.header-media.content-frame .custom-header-content .header-media-tagline,
+.header-media.content-frame .custom-header-content .site-header-text,
+.dropdown-toggle,
+.menu-social-container a,
+.service-section .more-link,
+.testimonial-content-section .more-link,
+.ghost-button .more-link,
+.stats-section p:not(.view-more) .more-link,
+.featured-content-section .more-link,
+.archive-posts-wrapper .more-link,
+.custom-header .entry-breadcrumbs a,
+.product-container a.button,
+.author-name,
+.comment-reply-link,
+.author-title,
+ins,
+.wp-block-pullquote cite,
+.wp-block-quote cite,
+cite,
+.latest-trip-section label,
+del,
+.entry-meta a,
+.sidebar .widget-wrap li a,
+.widget_recent_entries li a,
+.testimonial-content-section .entry-meta span,
+.onsale,
+.entry-breadcrumbs a,
+.woocommerce.woocommerce-active .woocommerce-breadcrumb a,
+p.stars a,
+.single footer .entry-meta a,
+p.stars a:before,
+.controller:before,
+.tag-cloud-link,
+.select2-results__option,
+body.no-header-media-image .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu .current_page_item>a,
+#footer-newsletter .wrapper .section-description,
+.widget-wrap span.post-date,
+.contact-section .entry-container a,
+.archive .section-content-wrapper .more-link .readmore,
+.faq-section .hentry .more-link,
+.team-section .hentry .more-link,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-prev:before,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-prev:after,
+.testimonials-content-wrapper.section.testimonial-wrapper .cycle-next:before,
+.clients-content-wrapper .controller .cycle-pager span,
+.testimonials-content-wrapper .cycle-pager:after,
+.slider-content-wrapper .entry-container .entry-container-wrap .entry-summary,
+.testimonials-content-wrapper .entry-title a,
+.testimonials-content-wrapper.section.testimonial-wrapper .hentry,
+.scrollup a:hover:before,
+.scrollup a:focus:before,
+.sidebar .widget-wrap .more-link,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link:hover,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link:focus,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a,
+.team-section .entry-meta,
+.author-label,
+.author-section-title,
+.comment-permalink,
+.comment-edit-link,
+.entry-title span,
+.nav-subtitle,
+.nav-menu .menu-item-has-children>a:before,
+.nav-menu .menu_item_has_children>a:before,
+.product-content-section span.woocommerce-Price-amount,
+.breadcrumb-area .entry-breadcrumbs,
+.breadcrumb-area .woocommerce-breadcrumb,
+.vcard,
+.position,
+.entry-meta a,
+.collection-content-wrapper .filter-button-group button.button,
+.attraction-content-wrapper .filter-button-group button.button,
+.transparent-header .site-title a,
+.navigation-classic .menu-inside-wrapper .main-navigation ul>li>a,
+.wp-travel-itinerary-items .wp-travel-post-item-wrapper .post-title a,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .wp-travel-explore a {
+    color: map-get($theme-color, secondary-link-color);
+}
+
+/* Secondary Hover Link Color */
+
+.post-title,
+.has-background-image .offer-lists a,
+.main-navigation .nav-menu > li a,
+#stats-section .entry-title a,
+.navigation.pagination .page-numbers.prev,
+.navigation.pagination .page-numbers.next,
+.left-content .price-offer .offer-lists a,
+.top-main-wrapper ul li a,
+.testimonial-content-section .more-link,
+.transparent-header.has-header-media .site-title a,
+#header-content #primary-search-wrapper button.search-submit,
+.sidebar .widget-wrap li a,
+.has-background-image .woocommerce-loop-product__title,
+.has-background-image .entry-container .entry-meta a,
+.has-background-image .entry-container .entry-title a,
+.single footer .entry-meta a,
+#site-footer-navigation li a,
+#social-footer-navigation li a,
+.has-background-image .entry-title a,
+.has-background-image .entry-meta a,
+.woocommerce .woocommerce-breadcrumb a,
+.team-content-wrapper .entry-container .entry-title a,
+.team-content-wrapper .entry-container .entry-meta a,
+.team-content-wrapper .entry-container .social-navigation a,
+#service-section .entry-title a,
+.events-content-wrapper .entry-meta a,
+.widget_recent_entries li a,
+.portfolio-content-section:not(.itineraries) .hentry .entry-container a:not(.more-link),
+.portfolio-content-section:not(.destination) .hentry .entry-container a:not(.more-link),
+.widget .ui-state-default a,
+.widget .ui-widget-content .ui-state-default a,
+.widget .ui-widget-header .ui-state-default a,
+.tag-cloud-link,
+.nav-title,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.author a,
+.entry-title a,
+.site-footer td#prev a,
+.site-footer td#next a,
+.comment-reply-link,
+aside.footer-widget-area a,
+.portfolio-content-wrapper .filter-button-group button,
+.author-section-title,
+.comment-permalink,
+.comment-edit-link,
+.nav-subtitle,
+.entry-meta a,
+.latest-package-wrapper .entry-header .entry-meta a,
+.testimonials-content-wrapper.section.testimonial-wrapper .entry-title a,
+#site-generator .menu-social-container a,
+.widget-wrap li a,
+.sidebar .widget-wrap .more-link,
+.service-section .hentry .more-link,
+#service-section.has-background-image .hentry .more-link,
+#stats-section .hentry .more-link,
+#service-section .hentry .more-link,
+.breadcrumb a,
+aside.footer-widget-area .social-navigation a,
+.menu-toggle,
+.post-navigation a span,
+.post-navigation a span,
+.feature-slider-wrapper .entry-container .entry-title a,
+.feature-slider-wrapper .entry-container .entry-title a,
+.feature-slider-wrapper .entry-container .entry-title span,
+.feature-slider-wrapper .entry-container .entry-title span,
+.archive-posts-wrapper .more-link,
+.archive-posts-wrapper .more-link,
+.portfolio-content-section.itineraries .hentry-inner .trip-footer .entry-meta .icon,
+.portfolio-content-section.destination .hentry-inner .trip-footer .entry-meta .icon,
+.has-header-image .custom-header .breadcrumb-area .entry-breadcrumbs a,
+.has-header-image .custom-header .breadcrumb-area .entry-breadcrumbs a,
+.custom-header .entry-breadcrumbs a,
+.custom-header .entry-breadcrumbs a,
+.has-header-image .custom-header-content .site-header-text .entry-meta a,
+.has-header-image .custom-header-content .site-header-text .entry-meta a,
+.stats-section p:not(.view-more) .more-link,
+.stats-section p:not(.view-more) .more-link,
+.service-section .more-link,
+.service-section .more-link,
+.entry-title a,
+button.menu-toggle,
+.menu-toggle,
+.site-header-cart .cart-contents,
+.main-navigation .nav-menu>li a,
+.author-name a,
+.left-content .price-offer .offer-lists a,
+.portfolio-content-section.itineraries  .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.portfolio-content-section.destination  .portfolio-content-wrapper .hentry .entry-container .entry-container-inner-wrap .entry-title a,
+.dropdown-toggle,
+.menu-social-container a,
+.custom-header .entry-breadcrumbs a,
+.comment-reply-link,
+.entry-meta a,
+.sidebar .widget-wrap li a,
+.widget_recent_entries li a,
+.entry-breadcrumbs a,
+.woocommerce.woocommerce-active .woocommerce-breadcrumb a,
+p.stars a,
+.single footer .entry-meta a,
+.tag-cloud-link,
+body.no-header-media-image .site-header .site-header-main .site-header-menu .menu-inside-wrapper .main-navigation .nav-menu .current_page_item>a,
+.contact-section .entry-container a,
+.archive .section-content-wrapper .more-link .readmore,
+.testimonials-content-wrapper .entry-title a,
+.sidebar .widget-wrap .more-link,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a,
+.entry-title span,
+.wp-travel-itinerary-items .wp-travel-post-item-wrapper .post-title a {
+    &:hover,
+    &:focus {
+        color: map-get($theme-color, secondary-link-hover-color);
+    }
+}
+
+p.stars:hover a:before,
+p.stars:focus a:before,
+.star-rating span:before,
+p.stars.selected a.active:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active~a:before,
+p.stars a:hover~a:before,
+p.stars a:focus~a:before,
+.site-header-cart .cart-contents:hover .count,
+.site-header-cart .cart-contents:focus .count,
+.menu-inside-wrapper .main-navigation>.nav-menu>.current_page_item>a,
+#reviews .comment-respond .comment-form-rating .stars span a.active:before,
+.page-numbers.current,
+.breadcrumb-current,
+.page-links .current,
+#testimonial-content-section .section-content-wrapper .entry-content:hover:before,
+#testimonial-content-section .section-content-wrapper .entry-content:focus:before,
+#testimonial-content-section .section-content-wrapper .entry-summary:hover:before,
+#testimonial-content-section .section-content-wrapper .entry-summary:focus:before,
+#site-header-cart-wrapper a.cart-contents .count,
+#reviews .comment-respond .comment-form-rating .stars.selected span a:not(.active):before {
+    color: map-get($theme-color, secondary-link-hover-color);
+}
+
+/* Button Background Color */
+
+.feature-slider-wrapper a.more-link,
+.more-link,
+.button,
+.sidebar .social-links-menu li a,
+.pagination .page-numbers:not(.next):not(.prev):not(.dots),
+.post-page-numbers,
+.demo_store,
+.section .section-content-wrapper.owl-carousel .owl-nav button,
+#feature-slider-section .section-content-wrapper .owl-nav button,
+input[type="submit"].submit,
+input[type="submit"].wpcf7-submit,
+.section .owl-carousel button.owl-dot,
+.entry-content button,
+.entry-summary button,
+button,
+#scrollup,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+.slider-content-wrapper .controllers .cycle-prev,
+.slider-content-wrapper .controllers .cycle-next,
+input[type="submit"],
+button[type="submit"],
+.scrollup a,
+.sticky-post,
+#team-dots li.active:after,
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav button:hover,
+#team-content-section .team-content-wrapper.owl-carousel .owl-nav button:focus,
+.wp-block-button__link,
+#infinite-handle .ctis-load-more button,
+.menu-inside-wrapper #site-header-cart-wrappe li>a,
+.contact-section .entry-container ul.contact-details li .fa,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current,
+.archive-content-wrap .pagination .page-numbers.current,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.sticky-label,
+.logo-slider-section .owl-dots .owl-dot span,
+.onsale,
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link,
+.wp-travel-navigation.wp-paging-navigation ul li .wp-page-numbers,
+.wp-travel-navigation.wp-paging-navigation ul li span.wp-page-numbers,
+.wp-travel-offer span {
+    background-color: map-get($button-color, background-button);
+}
+
+.entry-title .sub-title,
+.section-subtitle,
+#testimonial-content-section .section-content-wrapper .entry-summary:before,
+#testimonial-content-section .section-content-wrapper .entry-content:before,
+.section-title-wrapper+.section-subtitle,
+.section-heading-wrapper>.section-subtitle,
+.skill-section.has-background-image .section-heading-wrapper>.section-subtitle,
+.section-heading-wrapper .sub-title,
+blockquote:not(.alignright):not(.alignleft):before,
+.section-heading-wrapper .entry-title span,
+.countdown-content-wrapper .content-left .price span.offer-price {
+    color: map-get($button-color, background-button);
+}
+
+blockquote,
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-quote,
+.owl-carousel .owl-dots button.owl-dot.active span,
+.logo-slider-section .owl-prev:hover,
+.logo-slider-section .owl-prev:focus,
+.logo-slider-section .owl-next:hover,
+.logo-slider-section .owl-next:focus,
+.woocommerce .products .product-container .button,
+.logo-slider-section .owl-dots .owl-dot.active span,
+blockquote.alignright,
+blockquote.alignleft,
+#contact-section .entry-container .inner-container,
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+.wpcf7 div input:focus,
+.wpcf7 div textarea:focus,
+#contact-section .hentry input:not([type="submit"]):focus, 
+#contact-section .hentry textarea:focus,
+.trip-filter-section .description-box .item select:focus,
+.trip-filter-section .description-box .item input[type="text"]:focus,
+.trip-filter-section .description-box .item.item-1 select:focus,
+.trip-filter-section .description-box .item.item-2 select:focus {
+    border-color: map-get($button-color, background-button);
+}
+
+
+/* Button Text Color */
+
+.more-link,
+.entry-content button,
+.entry-summary button,
+.pagination .page-numbers,
+.post-page-numbers,
+.sidebar .social-links-menu li a,
+.section .section-content-wrapper.owl-carousel .owl-nav button,
+#feature-slider-section .section-content-wrapper .owl-nav button,
+input[type="submit"].submit,
+input[type="submit"].wpcf7-submit,
+.slider-content-wrapper .controllers .cycle-prev,
+.slider-content-wrapper .controllers .cycle-next,
+button,
+#scrollup,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+#primary-search-wrapper .search-container button,
+input[type="submit"],
+.button,
+.scrollup a:before,
+.page-numbers:hover,
+.page-numbers:focus,
+button[type="submit"],
+button#wp-custom-header-video-button,
+#infinite-handle .ctis-load-more button,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li:hover,
+.archive-content-wrap .pagination .page-numbers:hover,
+.archive-content-wrap .pagination .page-numbers:focus,
+.woocommerce-pagination ul.page-numbers li:focus,
+.archive-content-wrap .pagination .page-numbers.current,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current,
+.portfolio-content-section .entry-container,
+.nav-menu .menu-item-has-children>a:hover:before,
+.nav-menu .menu-item-has-children>a:focus:before,
+.nav-menu .menu_item_has_children>a:hover:before,
+.nav-menu .menu_item_has_children>a:focus:before,
+.contact-section .entry-container ul.contact-details li .fa,
+.onsale,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+.collection-content-wrapper .filter-button-group button.button.is-checked,
+.attraction-content-wrapper .filter-button-group button.button.is-checked,
+.wp-block-file .wp-block-file__button,
+.wp-block-search .wp-block-search__button,
+.wp-block-button .wp-block-button__link,
+.wp-travel-navigation.wp-paging-navigation ul li .wp-page-numbers,
+.wp-travel-navigation.wp-paging-navigation ul li span.wp-page-numbers {
+    color: map-get($button-color, button-text-color);
+}
+
+
+/* Tertiary link color */
+
+.list-inline li .icon,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container .entry-container-inner-wrap .icon, 
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container .entry-container-inner-wrap .icon,
+.trip-filter-section .description-box .item .icon:not(.icon-search),
+.wp-travel-itinerary-items .wp-travel-post-item-wrapper .wp-travel-post-content .entry-meta i,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-left .entry-meta i,
+.wp-travel-itinerary-items .wp-travel-post-item-wrapper .wp-travel-post-content .wp-travel-trip-time i,
+.wp-travel-average-review:before,
+.wp-travel-average-review span {
+    color: map-get($theme-color, tertiary-link-color);
+}
+
+
+/* Button Hover Text Color */
+
+.more-link,
+button,
+.button,
+.sidebar .social-links-menu li a,
+.pagination .page-numbers:not(.next):not(.prev):not(.dots),
+.post-page-numbers,
+.section .section-content-wrapper.owl-carousel .owl-nav button,
+#feature-slider-section .section-content-wrapper .owl-nav button,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+.ghost-button .more-link,
+.entry-content button,
+.entry-summary button,
+input[type="submit"],
+button[type="submit"],
+.portfolio-content-section:not(.itineraries) .more-link,
+.portfolio-content-section:not(.destination) .more-link,
+#primary-search-wrapper .search-container button,
+#infinite-handle .ctis-load-more button,
+nav.navigation.posts-navigation .nav-links a,
+.contact-section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li,
+.feature-slider-wrapper .entry-summary a,
+#contact-section input[type="submit"],
+.logo-slider-section .owl-prev,
+.logo-slider-section .owl-next,
+.product-container a.button,
+#scrollup,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .wp-travel-explore a {
+    &:hover,
+    &:focus {
+        color: map-get($button-color, button-hover-text-color);
+    }
+}
+
+.navigation.pagination .nav-links .page-numbers.current,
+.post-page-numbers.current {
+    color: map-get($button-color, button-hover-text-color);
+}
+
+/* Button Hover Background Color */
+
+.more-link,
+.button,
+.ghost-button .more-link,
+.sidebar .social-links-menu li a,
+.section .section-content-wrapper.owl-carousel .owl-nav button,
+#feature-slider-section .section-content-wrapper .owl-nav button,
+#contact-section.has-background-image input[type="submit"],
+#scrollup,
+button,
+.pagination .page-numbers:not(.next):not(.prev):not(.dots),
+.post-page-numbers,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+.featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+input[type="submit"],
+.scrollup a,
+.logo-slider-section .owl-prev,
+.logo-slider-section .owl-next,
+button[type="submit"],
+.wp-block-button__link,
+.promotion-section .play-button,
+.woocommerce .products .product-container .button,
+#infinite-handle .ctis-load-more button,
+.slider-content-wrapper .cycle-next,
+.slider-content-wrapper .cycle-prev,
+.contact-section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li,
+nav.navigation.posts-navigation .nav-links a,
+.woocommerce-pagination ul.page-numbers li .page-numbers,
+.archive-content-wrap .pagination .page-numbers,
+.feature-slider-wrapper .entry-summary a,
+#contact-section input[type="submit"],
+#feature-slider-section .more-link,
+.wp-travel-navigation.wp-paging-navigation ul li .wp-page-numbers,
+.wp-travel-navigation.wp-paging-navigation ul li span.wp-page-numbers,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .wp-travel-explore a {
+    &:hover,
+    &:focus {
+        background-color: map-get($button-color, background-hover-button);
+    }
+}
+
+.navigation.pagination .nav-links .page-numbers.current,
+.post-page-numbers.current,
+.wp-travel-navigation.wp-paging-navigation ul li .wp-page-numbers.current {
+    background-color: map-get($button-color, background-hover-button);
+}
+
+.color-scheme-photography {
+    .header-style-one #primary-search-wrapper .menu-inside-wrapper,
+    .portfolio-content-wrapper .filter-button-group button.is-checked,
+    .collection-content-wrapper .filter-button-group button.button.is-checked,
+    .attraction-content-wrapper .filter-button-group button.button.is-checked {
+        background-color: map-get($button-color, background-hover-button);
+    }
+}
+
+
+/* Gradient Button Background Color */
+
+.gradient-button-enabled {
+    .feature-slider-wrapper a.more-link,
+    .more-link,
+    .button,
+    .sidebar .social-links-menu li a,
+    .pagination .page-numbers:not(.next):not(.prev):not(.dots),
+    .post-page-numbers,
+    .demo_store,
+    .section .section-content-wrapper.owl-carousel .owl-nav button,
+    #feature-slider-section .section-content-wrapper .owl-nav button,
+    input[type="submit"].submit,
+    input[type="submit"].wpcf7-submit,
+    .section .owl-carousel button.owl-dot,
+    .entry-content button,
+    .entry-summary button,
+    button,
+    #scrollup,
+    .featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+    .featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+    .slider-content-wrapper .controllers .cycle-prev,
+    .slider-content-wrapper .controllers .cycle-next,
+    input[type="submit"],
+    button[type="submit"],
+    .scrollup a,
+    .sticky-post,
+    #team-dots li.active:after,
+    #team-content-section .team-content-wrapper.owl-carousel .owl-nav button:hover,
+    #team-content-section .team-content-wrapper.owl-carousel .owl-nav button:focus,
+    .wp-block-button__link,
+    #infinite-handle .ctis-load-more button,
+    .menu-inside-wrapper #site-header-cart-wrappe li>a,
+    .contact-section .entry-container ul.contact-details li .fa,
+    nav.navigation.posts-navigation .nav-links a,
+    .woocommerce-pagination ul.page-numbers li .page-numbers.current,
+    .archive-content-wrap .pagination .page-numbers.current,
+    .cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
+    .sticky-label,
+    .logo-slider-section .owl-dots .owl-dot span,
+    .onsale {
+        background-image: linear-gradient(to left, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-first-next) );
+    }
+}
+
+/* Gradient Button Hover Background Color */
+
+.gradient-button-enabled{
+    .more-link,
+    .button,
+    .ghost-button .more-link,
+    .sidebar .social-links-menu li a,
+    .section .section-content-wrapper.owl-carousel .owl-nav button,
+    #feature-slider-section .section-content-wrapper .owl-nav button,
+    #contact-section.has-background-image input[type="submit"],
+    #scrollup,
+    button,
+    .pagination .page-numbers:not(.next):not(.prev):not(.dots),
+    .post-page-numbers,
+    .featured-trip-section .featured-trip-content-wrapper .featured-trip-slider.owl-carousel .owl-nav button,
+    .featured-trip-section .featured-trip-content-wrapper .featured-trip-slider-grid.owl-carousel .owl-nav button,
+    input[type="submit"],
+    .scrollup a,
+    .logo-slider-section .owl-prev,
+    .logo-slider-section .owl-next,
+    button[type="submit"],
+    .wp-block-button__link,
+    .promotion-section .play-button,
+    .woocommerce .products .product-container .button,
+    #infinite-handle .ctis-load-more button,
+    .slider-content-wrapper .cycle-next,
+    .slider-content-wrapper .cycle-prev,
+    .contact-section .section-content-wrap .hentry .entry-container .stay-connected .social-links-menu li,
+    nav.navigation.posts-navigation .nav-links a,
+    .woocommerce-pagination ul.page-numbers li .page-numbers,
+    .archive-content-wrap .pagination .page-numbers,
+    .feature-slider-wrapper .entry-summary a,
+    #contact-section input[type="submit"],
+    #feature-slider-section .more-link {
+        &:hover,
+        &:focus {
+            background-image: linear-gradient(to left, map-get($button-color, gradient-button-background-color-first-next), map-get($button-color, gradient-button-background-color-first) );
+        }
+    }
+}
+
+/* Border Color */
+
+.page .site-main .entry-footer .entry-meta>a,
+.single .site-main .entry-footer .entry-meta>a,
+.tagcloud a,
+.widget-area .essential-widgets .tagcloud a, 
+.widget-area .essential-widgets .tagcloud.rounded-corners a,
+.post-navigation .nav-links,
+.wp-block-calendar tbody td, 
+.wp-block-calendar th,
+aside.widget-area + div#site-generator:before,
+.latest-trip-section .hentry-inner .entry-meta li,
+.trip-content-wrapper .hentry-inner .entry-container .entry-summary,
+.trip-content-wrapper .hentry-inner .entry-container .entry-content,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container .entry-container-inner-wrap .trip-footer,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container .entry-container-inner-wrap .trip-footer,
+.post-navigation .nav-previous,
+.ghost-button .more-link,
+.trip-filter-section .description-box .item select,
+.trip-filter-section .description-box .item input[type='text'],
+.featured-trip-section .inner-container,
+.woocommerce-ordering select,
+.list-inline li,
+.latest-trip-section .meta-wrapper,
+.woocommerce-tabs .panel,
+.woocommerce-tabs ul.tabs li.active a:after,
+.woocommerce-tabs ul.tabs:after,
+.calendar_wrap tbody tr:first-child,
+.calendar_wrap tbody tr:last-child,
+tfoot,
+tfoot tr td,
+.author-info,
+.wpcf7 div input,
+.wpcf7 div textarea,
+.navigation-classic .main-navigation ul ul,
+.woocommerce-shorting-wrapper,
+.woocommerce-tabs ul.tabs.wc-tabs li,
+.menu-wrapper .widget_shopping_cart ul.woocommerce-mini-cart li,
+.entry-summary form.cart,
+.widget_recent_entries li,
+.team-section .team-content-wrapper .hentry .team-social-profile .social-links-menu,
+#contact-section .hentry input:not([type="submit"]), 
+#contact-section .hentry textarea,
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+table,
+caption,
+table th,
+table thead tr,
+table thead th,
+thead th,
+tbody th,
+tbody td,
+tbody tr,
+table.shop_table_responsive tr td,
+table tbody tr,
+table.shop_table_responsive tbody tr:last-child,
+.shop_table tfoot tr td,
+.shop_table tfoot tr th,
+table.shop_table.woocommerce-checkout-review-order-table .cart_item td,
+table.shop_table.woocommerce-checkout-review-order-table tr td,
+table.shop_table.woocommerce-checkout-review-order-table tr th,
+.rtl tbody td:last-child,
+.rtl table thead th:last-child,
+.select2-container--default .select2-selection--single,
+table.woocommerce-grouped-product-list.group_table,
+table.woocommerce-grouped-product-list.group_table td,
+table.variations,
+table.variations td,
+.woocommerce-pagination ul.page-numbers li .page-numbers,
+.archive-content-wrap .navigation.pagination .page-numbers,
+.woocommerce-posts-wrapper .summary.entry-summary .woocommerce-product-rating,
+.cart-collaterals .order-total,
+#payment .wc_payment_methods .payment_box,
+.products .product,
+select,
+header .site-header-main,
+abbr,
+acronym,
+.product-quantity input[type="number"],
+.coupon input[type="text"],
+.site-header-main .menu-inside-wrapper,
+.site-header-cart .widget_shopping_cart,
+.woocommerce-grouped-product-list tr,
+.mobile-social-search,
+.widget .ui-tabs .ui-tabs-panel,
+.site-header-menu .menu-inside-wrapper .nav-menu button:focus,
+header .site-header-menu .menu-inside-wrapper .main-navigation .sub-menu li:last-child,
+header .site-header-menu .menu-inside-wrapper .main-navigation .children li:last-child,
+.header-style-one .site-header-main>.wrapper:after,
+.header-style-two #site-header-top-menu::after,
+#site-header-top-menu:after,
+.comment-body,
+.promotion-headline-wrapper.section .section-content-wrap .inner-container .more-button .more-link,
+.archive-content-wrap .section-content-wrapper.layout-one .hentry .hentry-inner .entry-container>.entry-meta,
+.section:nth-child(even)+.site-content,
+.comments-area,
+.events-content-wrapper .hentry,
+.featured-content-wrapper .hentry-inner,
+.wp-block-table,
+.wp-block-table caption,
+.wp-block-table th,
+.wp-block-table td,
+.wp-block-table figcaption,
+.wp-block-table tfoot,
+.latest-package-wrapper .hentry-inner .entry-container,
+.latest-package-wrapper .hentry-inner .button-wrap,
+.wp-travel-archive-content .wp-travel-default-article .wp-travel-entry-content-wrapper .description-right .wp-travel-explore a,
+.site-content + .section:nth-child(even),
+.wp-travel-toolbar,
+.wp-travel-default-article,
+.wp-travel-default-article .wp-travel-entry-content-wrapper .description-right,
+.wp-travel-itinerary-items .wp-travel-itinerary-list li,
+.trip-headline-wrapper .featured-detail-section .right-plot-inner-wrap .wp-travel-trip-meta-info {
+    border-color: map-get($theme-color, main-border-color);
+}
+
+/* Content Color White */
+
+.featured-trip-section .entry-title a,
+.collection-content-section .entry-title a,
+.attraction-content-section .entry-title a,
+.featured-content-section .section-content-wrapper .post-thumbnail .entry-title a,
+.collection-content-wrapper .entry-meta a,
+.collection-content-wrapper .entry-container-inner-wrap .sub-title,
+.attraction-content-wrapper .entry-meta a,
+.attraction-content-wrapper .entry-container-inner-wrap .sub-title,
+.featured-content-section .section-content-wrapper .post-thumbnail .entry-meta a,
+.latest-trip-section .entry-title a,
+.latest-trip-section .entry-header,
+.demo_store,
+.sticky-post,
+.site-info,
+.scroll-down,
+#header-content #primary-search-wrapper input[type="search"],
+.site-info a,
+aside.footer-widget-area .widget,
+aside.footer-widget-area .author-label,
+aside.footer-widget-area svg,
+aside.footer-widget-area a,
+#testimonial-content-section .owl-next:hover,
+#testimonial-content-section .owl-next:focus,
+#testimonial-content-section .owl-prev:hover,
+#testimonial-content-section .owl-prev:focus,
+.woocommerce .custom-header .woocommerce-breadcrumb a,
+.has-header-image .custom-header .breadcrumb-area .entry-breadcrumbs,
+.has-header-image .custom-header .breadcrumb-area .entry-breadcrumbs a,
+.has-header-image .custom-header .breadcrumb-area .woocommerce-breadcrumb,
+.custom-header-content .entry-title .sub-title,
+.hero-content-wrapper.has-background-image .entry-container,
+.portfolio-content-section:not(.itineraries) .hentry .entry-container a:not(.more-link),
+.portfolio-content-section:not(.destination) .hentry .entry-container a:not(.more-link),
+.portfolio-content-wrapper .hentry .entry-container .entry-meta time,
+.portfolio-content-wrapper .hentry .entry-container .entry-summary,
+.custom-header-content .entry-container,
+.custom-header-content .entry-container .entry-title,
+.ewnewsletter.has-background-image .section-title,
+.site-footer .widget-wrap .widget-title,
+.site-footer .widget-wrap .wp-block-group h2,
+.testimonials-content-wrapper.section.testimonial-wrapper.has-background-image .hentry,
+.testimonials-content-wrapper.section.testimonial-wrapper.has-background-image .position,
+.slider-content-wrapper.content-frame .entry-container .entry-title a,
+.slider-content-wrapper.content-frame .entry-container .entry-container-wrap .entry-summary,
+aside.footer-widget-area .widget-title,
+aside.footer-widget-area .wp-block-group h2,
+aside.footer-widget-area .widget_block h1,
+aside.footer-widget-area .widget_block h2,
+aside.footer-widget-area .widget_block h3,
+aside.footer-widget-area .widget_block h4,
+aside.footer-widget-area .widget_block h5,
+aside.footer-widget-area .widget_block h6,
+.has-background-image .section-title,
+.has-background-image .portfolio-content-wrapper .filter-button-group button,
+.has-background-image .offer-lists,
+.has-background-image .left-content .left-content-offer .entry-title,
+.has-background-image .price-content,
+.has-background-image .price-offer .offer-lists a,
+.has-background-image .entry-container .entry-meta a,
+.has-background-image .entry-container .entry-title a,
+.has-background-image .entry-container .entry-title,
+.has-background-image .entry-container .entry-title span,
+.has-background-image .entry-container .entry-summary,
+.has-background-image .entry-container .entry-content,
+.has-background-image .woocommerce-loop-product__title,
+.content-color-white .entry-container .entry-title a,
+.content-color-white .entry-container .entry-title,
+.content-color-white .entry-container .section-description,
+.content-color-white .entry-container .entry-content,
+.content-color-white .entry-container .entry-summary,
+.promotion-section .play-button,
+.has-background-image .products .button,
+#feature-slider-section .owl-nav button:hover:before,
+#feature-slider-section .owl-nav button:focus:before,
+.playlist-content-wrapper .wp-playlist-caption,
+#service-section.has-background-image .hentry .more-link,
+#stats-section.has-background-image .hentry .more-link,
+.skillbar-item .skillbar-bar .skillbar-header,
+.portfolio-content-wrapper .filter-button-group button.is-checked,
+.skillbar-item .skillbar-bar .skillbar-header .entry-title,
+.play-button-text,
+aside.footer-widget-area .social-navigation a,
+#contact-section.has-background-image .entry-content,
+#contact-section.has-background-image .entry-summary,
+.playlist-content-wrapper .wp-playlist-tracks,
+#social-footer-navigation li a,
+#site-footer-navigation li a,
+ins,
+#header-content #primary-search-wrapper button.search-submit,
+#contact-section .entry-container .entry-content .contact-details label,
+#contact-section .entry-container .entry-summary .contact-details label,
+.has-background-image .section-description-wrapper,
+.has-background-image .section-title-wrapper+.section-description,
+.has-background-image .section-title+.section-description,
+.has-background-image .section-title-wrapper+.section-subtitle,
+.has-background-image .section-heading-wrapper>.section-description,
+.has-background-image .section-title+.section-description,
+.has-background-image .section-heading-wrapper>.section-subtitle,
+.countdown-content-wrapper .content-right #clock {
+    color: map-get($theme-color, color-white-light);
+}
+
+@include media(mobile_horizontal) {
+    .hero-content-wrapper .video-wrapper .section-title,
+    .hero-content-wrapper .video-wrapper .section-description {
+        color: map-get($theme-color, color-white-light);
+    }
+}
+
+.promotion-section .play-button,
+.transparent-header.has-header-image.header-style-two .header-top-bar:after,
+.transparent-header.has-header-image.header-style-one #site-header-top-menu::after,
+.transparent-header.has-header-image.header-style-two #site-header-top-menu::after,
+.transparent-header.header-style-one .site-header-main>.wrapper:after,
+.header-style-one .site-header-menu:before,
+.color-scheme-dark.header-style-one #primary-search-wrapper .menu-inside-wrapper input[type="search"]:focus {
+    border-color: map-get($theme-color, color-white-light);
+}
+
+#header-content #primary-search-wrapper input[type="search"]::-moz-placeholder { /* Chrome/Opera/Safari */
+    color: map-get($theme-color, color-white-light);
+}
+
+#header-content #primary-search-wrapper input[type="search"]:-moz-placeholder { /* Firefox 18- */
+    color: map-get($theme-color, color-white-light);
+}
+#header-content #primary-search-wrapper input[type="search"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: map-get($theme-color, color-white-light);
+}
+
+#header-content #primary-search-wrapper input[type="search"]:-ms-input-placeholder { /* IE 10+ */ 
+    color: map-get($theme-color, color-white-light);
+}
+
+.service-section .hentry,
+#stats-section .hentry,
+.testimonial-content-section,
+.archive-posts-wrapper,
+.sidebar .widget-wrap {
+    .more-link {
+        background: transparent;
+        &:hover,
+        &:focus {
+            background: transparent;
+        }
+    }
+}
+
+.dropdown-toggle,
+#contact-section input:not([type="submit"]),
+#contact-section textarea,
+.owl-carousel .owl-dots button.owl-dot.active span,
+.absolute-header .site-header,
+button.menu-toggle,
+.team-content-wrapper.owl-carousel .owl-dots button.owl-dot span,
+button#wp-custom-header-video-button,
+.archive-content-wrap .more-link,
+.archive-content-wrap .more-link:hover,
+.archive-content-wrap .more-link:focus,
+.archive-content-wrap .more-button,
+.archive-content-wrap .more-button:hover,
+.archive-content-wrap .more-button:focus,
+.woocommerce-loop-category__title .count,
+.footer-widget-area .essential-widgets.ew-newsletter,
+.menu-toggle:hover,
+.menu-toggle:focus,
+table thead,
+table thead td,
+.logo-slider-section .owl-dots .owl-dot.active span,
+.portfolio-content-wrapper .filter-button-group button,
+#footer-newsletter+.section,
+.collection-content-wrapper .filter-button-group button.button,
+.attraction-content-wrapper .filter-button-group button.button,
+.featured-content-section .more-link,
+.trip-filter-section .description-box .item select,
+.trip-filter-section .description-box .item input[type="text"],
+.wp-travel-toolbar {
+    background-color: transparent;
+}
+
+.gradient-button-enabled {
+    .dropdown-toggle,
+    #contact-section input:not([type="submit"]),
+    #contact-section textarea,
+    .owl-carousel .owl-dots button.owl-dot.active span,
+    .absolute-header .site-header,
+    button.menu-toggle,
+    .team-content-wrapper.owl-carousel .owl-dots button.owl-dot span,
+    button#wp-custom-header-video-button,
+    .archive-content-wrap .more-link,
+    .archive-content-wrap .more-link:hover,
+    .archive-content-wrap .more-link:focus,
+    .archive-content-wrap .more-button,
+    .archive-content-wrap .more-button:hover,
+    .archive-content-wrap .more-button:focus,
+    .woocommerce-loop-category__title .count,
+    .footer-widget-area .essential-widgets.ew-newsletter,
+    .menu-toggle:hover,
+    .menu-toggle:focus,
+    .dropdown-toggle:hover,
+    .dropdown-toggle:focus,
+    table thead,
+    table thead td,
+    .logo-slider-section .owl-dots .owl-dot.active span,
+    .portfolio-content-wrapper .filter-button-group button,
+    #footer-newsletter+.section,
+    .collection-content-wrapper .filter-button-group button.button,
+    .attraction-content-wrapper .filter-button-group button.button,
+    .featured-content-section .more-link,
+    .trip-filter-section .description-box .item select {
+        background-image: none;
+    }
+}
+
+
+.portfolio-content-wrapper .filter-button-group button:hover {
+    box-shadow: none;
+}

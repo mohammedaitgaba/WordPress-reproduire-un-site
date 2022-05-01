@@ -1,0 +1,71 @@
+/**
+ * 7.3.10.1 - Collection
+ */
+
+#collection-content-section .entry-container,
+#attraction-content-section .entry-container {
+    bottom: 0;
+    left: 0;
+    padding: 0 21px 21px;
+    position: absolute;
+    width: 100%;
+}
+
+#collection-content-section .hentry,
+#attraction-content-section .hentry {
+    margin-bottom: 30px;
+}
+
+#collection-content-section .hentry-inner,
+.collection-content-section .entry-container .entry-container-inner-wrap,
+#attraction-content-section .hentry-inner,
+.attraction-content-section .entry-container .entry-container-inner-wrap {
+     position: relative;
+}
+
+#collection-content-section .hentry-inner,
+#attraction-content-section .hentry-inner {
+    overflow: hidden;
+}
+
+.section-content-wrapper.collection-content-wrapper .post-thumbnail,
+.collection-content-wrapper .entry-meta,
+.section-content-wrapper.attraction-content-wrapper .post-thumbnail,
+.attraction-content-wrapper .entry-meta {
+    margin-bottom: 0;
+}
+
+.collection-content-wrapper .entry-meta,
+.collection-content-wrapper .entry-container-inner-wrap .sub-title,
+.attraction-content-wrapper .entry-meta,
+.attraction-content-wrapper .entry-container-inner-wrap .sub-title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 7px;
+
+    a {
+        opacity: 1;
+        font-weight: 600;
+    }
+}
+
+.collection-content-wrapper .entry-title,
+.attraction-content-wrapper .entry-title,
+.portfolio-content-wrapper .entry-title,
+.featured-content-wrapper .entry-title {
+    line-height: 1.46;
+}
+
+.collection-content-wrapper .filter-button-group button.button:hover,
+.collection-content-wrapper .filter-button-group button.button:focus,
+.attraction-content-wrapper .filter-button-group button.button:hover,
+.attraction-content-wrapper .filter-button-group button.button:focus {
+    box-shadow: none;
+}
+
+.collection-content-wrapper .hentry-inner .post-thumbnail a img,
+.attraction-content-wrapper .hentry-inner .post-thumbnail a img {
+    width: 100%;
+}

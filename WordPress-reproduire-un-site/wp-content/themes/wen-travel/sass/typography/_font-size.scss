@@ -1,0 +1,309 @@
+/**
+ * 2.2 - Font-size
+ */
+
+body {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.post-navigation .nav-subtitle {
+    font-size: 12px;
+    font-size: 0.75rem;
+}
+
+.site-info,
+.site-description,
+.entry-footer .entry-meta,
+#testimonial-content-section .entry-meta,
+.entry-meta,
+.entry-meta a,
+.breadcrumb-area,
+.woocommerce .woocommerce-breadcrumb,
+.post-navigation .meta-nav,
+.woocommerce-review__published-date,
+.widget-title,
+.widget .wp-block-group h2,
+.page .site-main .entry-footer .entry-meta,
+.single .site-main .entry-footer .entry-meta,
+.wp-playlist-item-artist,
+button,
+.button,
+.wp-travel.trip-headline-wrapper .wp-travel-booknow-btn,
+.more-link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.comment-reply-link,
+.top-main-wrapper .header-top-left ul li,
+.team-content-wrapper .entry-meta,
+.collection-content-wrapper .entry-container-inner-wrap .sub-title,
+.attraction-content-wrapper .entry-container-inner-wrap .sub-title,
+.wpcf7 label {
+    font-size: 13px;
+    font-size: 0.8125rem;
+}
+
+.posts-navigation,
+#content #infinite-handle span button,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+#feature-slider-section .entry-meta,
+.comment-subscription-form,
+.countdown-content-wrapper .content-right #clock .countdown-label {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+input,
+select,
+textarea,
+.site-header .icon,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+.breadcrumb-area,
+ul.products li.product .woocommerce-loop-product__title,
+.post-navigation .nav-title,
+.author-description .author-title,
+.menu-toggle-close,
+.dropdown-toggle,
+.search-submit:before,
+.cart-contents:before,
+.navigation.pagination a,
+.menu-label,
+.menu-toggle,
+.main-navigation a,
+.sidebar .team-content-wrapper .entry-container>*,
+.featured-video-content-wrapper .entry-title,
+.section-subtitle,
+.trip-filter-section .description-box button,
+.skillbar-header .entry-title,
+.skillbar-header .skill-bar-percent,
+.wp-playlist-item-title {
+    font-size: 15px;
+    font-size: 0.9375rem;
+}
+
+.featured-trip-content-wrapper .entry-container del,
+.testimonial-content-section .position,
+input,
+select,
+optgroup,
+textarea,
+.trip-content-wrapper .price,
+.trip-content-wrapper .amount,
+.portfolio-content-section.itineraries .portfolio-content-wrapper  .entry-container-inner-wrap .price .label,
+.portfolio-content-section.destination .portfolio-content-wrapper  .entry-container-inner-wrap .price .label,
+.header-media-tagline,
+.tiled-gallery-item .tiled-gallery-caption,
+#stats-section .entry-summary,
+#stats-section .entry-content,
+.filter-button-group .button,
+.sidebar .widget,
+.sidebar .social-links-menu li a .icon,
+.left-content .price-offer .price-per-person .price-content,
+.countdown-content-wrapper .content-wrapper .content-left .price span.offer-text {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+input::-moz-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    font-size: 1rem;
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+input:-ms-input-placeholder { /* IE 10+ */ 
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+textarea::-moz-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+textarea:-ms-input-placeholder { /* IE 10+ */ 
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+
+aside.footer-widget-area .widget,
+.comment-content,
+.comment-meta .author-name,
+.testimonial-content-section .entry-title,
+.hero-content-wrapper .video-wrapper .section-description,
+.collection-content-wrapper .entry-title,
+.attraction-content-wrapper .entry-title,
+.portfolio-content-wrapper .entry-title,
+.featured-content-wrapper .entry-title {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.entry-title,
+.comments-title,
+.site-title,
+.custom-header-form form h2,
+.comment-reply-title,
+ul.products li.product .woocommerce-loop-product__title,
+.archive-post-wrap .hentry .entry-title,
+.countdown-content-wrapper .content-right #clock .countdown-number {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.archive-posts-wrapper .entry-title,
+.woocommerce-posts-wrapper .entry-title,
+.countdown-content-wrapper .content-left .content-title {
+    font-size: 26px;
+    font-size: 1.625rem;
+}
+
+.countdown-content-wrapper .content-wrapper .content-left .price span {
+    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+.entry-content h1,
+.entry-summary h1,
+.comment-content h1,
+.textwidget h1,
+.home .header-media .entry-title,
+.promotion-section .entry-title,
+#stats-section .entry-title,
+#feature-slider-section .entry-title,
+#footer-instagram .widget-title,
+.left-content .price-offer .currency,
+.latest-trip-section .hentry-inner .entry-container .amount,
+.latest-package-wrapper .amount,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container .amount,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container .amount,
+.singular-content-wrap .entry-title,
+.page-title,
+.section-title,
+#contact-section .entry-container .inner-container .entry-title {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+.special-offer-content-wrapper .section-description {
+    font-size: 34px;
+    font-size: 2.125rem;
+}
+
+.left-content .price-offer .price-per-person span.amount {
+    font-size: 70px;
+    font-size: 4.375rem;
+}
+
+#stats-section .entry-summary,
+#stats-section .entry-content,
+.post-password-form label,
+.site-navigation a,
+.entry-title,
+.woocommerce form label,
+.woocommerce-tabs ul.tabs li a,
+.single-product div.product .entry-summary .entry-title,
+.woocommerce .product-container .wc-forward,
+.contact-details li .contact-details-label,
+.contact-content-wrapper form p>label,
+#testimonial-content-section .entry-title,
+.posts-navigation a,
+.comment-form label,
+#hero-section .hentry .entry-container blockquote,
+.archive-post-wrap .entry-footer .entry-meta,
+.post-navigation .post-title,
+#stats-section h2.entry-title,
+.singular-content-wrap .entry-title, 
+.singular-content-wrap .section-title, 
+.page-title,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .hentry-inner .entry-container .amount,
+.portfolio-content-section.destination .portfolio-content-wrapper .hentry-inner .entry-container .amount,
+.latest-trip-section .hentry-inner .entry-container .amount,
+.latest-package-wrapper .amount,
+.comment-reply-link,
+.comment-meta .author-name,
+.trip-filter-section .description-box .item select,
+.portfolio-content-wrapper .entry-title,
+.post-navigation .nav-title,
+.left-content .price-offer .offer-lists a,
+#content #infinite-handle span button,
+.site-title,
+.special-offer-content-wrapper .section-description {
+    font-weight: 700;
+}
+
+.section-title,
+.section-subtitle {
+    font-weight: 400;
+}
+
+big {
+    font-size: 125%;
+}
+
+.archive-post-wrap .hentry .entry-header .entry-title {
+    line-height: 1.5;
+}
+
+input,
+select,
+textarea,
+.widget,
+.widget .hentry .entry-title,
+.site-header .icon,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+.breadcrumb-area,
+aside.footer-widget-area .widge,
+.sidebar .widget,
+.widget .widget-title,
+.widget .wp-block-group h2,
+ul.products li.product .woocommerce-loop-product__title,
+.post-navigation .nav-title,
+.author-description .author-title,
+.menu-toggle-close,
+.dropdown-toggle,
+.search-submit:before,
+.cart-contents:before,
+.navigation.pagination a,
+.menu-label,
+.menu-toggle,
+.portfolio-content-section.itineraries .portfolio-content-wrapper .entry-container .price .label,
+.portfolio-content-section.destination .portfolio-content-wrapper .entry-container .price .label,
+.main-navigation a,
+.sidebar .team-content-wrapper .entry-container>*,
+.menu-toggle,
+.featured-video-content-wrapper .entry-title,
+.section-subtitle,
+.skillbar-header .entry-title,
+.skillbar-header .skill-bar-percent,
+.wp-playlist-item-title {
+    line-height: 1.75;
+}

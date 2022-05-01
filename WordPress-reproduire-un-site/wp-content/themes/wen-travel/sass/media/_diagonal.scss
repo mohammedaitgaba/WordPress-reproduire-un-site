@@ -1,0 +1,299 @@
+/**
+ * 8.8 - >= 1660px
+ */
+
+@include media(diagonal) {
+    .is-open .menu-inside-wrapper {
+        right: 3%;
+    }
+
+    .hero-section.content-align-left .entry-container {
+        padding-right: 118px;
+    }
+
+    .hero-section.content-align-right .entry-container {
+        padding-left: 118px;
+    }
+
+    .promotion-section.section {
+        padding-bottom: 161px;
+        padding-top: 203px;
+    }
+
+    .section {
+        padding: 105px 0 63px 0;
+    }
+
+    .section.collection-content-section,
+    .section.attraction-content-section {
+        padding-bottom: 65px;
+    }
+
+    .custom-header + .section:not(.portfolio-content-section.has-background-image),
+    .feature-slider-section + .section:not(.portfolio-content-section.has-background-image),
+    .custom-header + .section:not(.promotion-section),
+    .feature-slider-section + .section:not(.promotion-section) {
+        padding-top: 105px;
+    }
+
+    .custom-header + .portfolio-content-section.has-background-image,
+    .feature-slider-section + .portfolio-content-section.has-background-image,
+    .custom-header + .promotion-section,
+    .feature-slider-section + .promotion-section {
+        margin-top: 105px;
+    }
+
+    #footer-newsletter {
+        .widget {
+            padding: 105px 50px;
+        }
+    }
+
+    .section + .site-content {
+        padding-top: 35px;
+    }
+
+    .custom-header {
+        padding-top: 131px;
+    }
+
+    .stats-section .section-content-wrapper:before, 
+    .logo-slider-section .section-content-wrapper:before {
+        width: calc(100% - 280px);
+    }
+    
+    div#primary-menu-wrapper .menu-toggle {
+        width: 100px;
+    }
+
+    .site-header-logo,
+    .slider-content-wrapper .title-image {
+        max-width: 100%;
+    }
+
+    .sidebar .widget .widget-wrap {
+        padding: 35px 0;
+    }
+
+    .comments-area {
+        padding-top: 70px;
+        margin-top: 70px;
+    }
+
+    .featured-content-section .entry-container,
+    .latest-package-wrapper .hentry-inner .entry-container {
+        padding: 42px;
+    }
+    
+    .trip-content-wrapper .hentry-inner .entry-container {
+        .entry-content,
+        .entry-summary {
+            padding: 35px 42px;
+        }
+    }
+
+    .promotion-section.section {
+        padding-bottom: 128px;
+        padding-top: 170px;
+    }
+
+    .team-content-wrapper .entry-container {
+        padding: 0 42px 42px;
+    }
+
+    #hero-section .hentry .entry-container blockquote {
+        display: inline-block;
+    }
+
+    .full-width-layout .archive-post-wrap .hentry .hentry .post-thumbnail-background + .entry-container {
+        padding: 320px 50px;
+        padding-right: 140px;
+    }
+
+    .full-width-layout .archive-post-wrap .hentry:nth-child(2n) .hentry .post-thumbnail-background + .entry-container {
+        padding-left: 140px;
+        padding-right: 50px;
+    }
+
+    .above-footer {
+        padding-top: 70px;
+    }
+
+    .widget-column + .above-footer {
+        padding-top: 28px;
+    }
+
+    .archive-posts-wrapper .entry-meta a  {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .single .site-main .entry-header,
+    .page .site-main .entry-header,
+    .archive .page-header,
+    .error404 .page-header,
+    .search .page-header,
+    .woocommerce-products-header {
+        margin-bottom: 83px;
+    }
+
+    ul.products li.product .price,
+    .menu-toggle-close,
+    .dropdown-toggle,
+    .sidebar .widget,
+    .sidebar .social-links-menu li a .icon,
+    .search-submit:before {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+    
+    .entry-content h1,
+    .entry-summary h1,
+    .comment-content h1,
+    .textwidget h1 {
+        font-size: 58px;
+        font-size: 3.625rem;
+    }
+
+    .custom-header-content {
+        max-width: 960px;
+    }
+
+    .custom-header-content-wrapper {
+        max-width: 880px;
+    }
+
+    .home .header-media .section-title,
+    #feature-slider-section .section-title {
+        font-size: 70px;
+        font-size: 4.375rem;
+    }
+
+    .home .header-media .section-title,
+    #feature-slider-section .section-title {
+        line-height: 1.25;
+    }
+
+    #stats-section .entry-title {
+        font-size: 46px;
+        font-size: 2.875rem;
+    }
+
+    #footer-instagram .widget-title,
+    .home .header-media .entry-title,
+    .slider-content-wrapper .entry-title,
+    .entry-content h2,
+    .entry-summary h2,
+    .comment-content h2,
+    .textwidget h2 {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    .entry-content h3,
+    .entry-summary h3,
+    .comment-content h3,
+    .textwidget h3 {
+        font-size: 36px;
+        font-size: 2.25em;
+    }
+
+    .entry-content h4,
+    .entry-summary h4,
+    .comment-content h4,
+    .textwidget h4,
+    .post-navigation .nav-links,
+    #feature-slider-section .entry-summary,
+    #feature-slider-section .entry-content,
+    .comment-reply-title,
+    ul.products li.product .woocommerce-loop-product__title,
+    .comments-title,
+    .comment-reply-title,
+    .entry-title {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    .entry-content h5,
+    .entry-summary h5,
+    .comment-content h5,
+    .textwidget h5,
+    .author-description .author-title,
+    .author-description .author-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    #footer-instagram .widget-title {
+        margin: 84px auto 42px;
+    }
+
+    .contact-us-form form {
+        margin-top: 46px;
+    }
+
+    .archive-post-wrap .entry-container {
+        padding: 35px;
+    }
+
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce button.button.alt,
+    .woocommerce input.button,
+    .woocommerce input.button.alt {
+        padding: 14px 35px;
+    }
+
+    .section:not(.testimonial-content-section):not(.stats-section):not(.why-choose-us) .section-heading-wrapper,
+    .filter-button-group {
+        padding-bottom: 56px;
+    }
+    
+    .contact-us-form form {
+        margin-top: 35px;
+    }
+
+    #testimonial-content-section .section-content-wrapper .entry-summary,
+    #testimonial-content-section .section-content-wrapper .entry-content {
+        margin: 0 0 35px;
+    }
+
+    .custom-header-content {
+        padding: 70px;
+    }
+
+    .special-offer-content-wrapper .entry-container {
+        max-width: 678px;
+        padding-left: 118px;
+        padding-right: 118px;
+    }
+
+    .special-offer-section.content-align-left .thumb-video-wrapper + .entry-container {
+        padding-left: 0;
+    }
+
+    .special-offer-section.content-align-right .thumb-video-wrapper + .entry-container {
+        padding-right: 0;
+    }
+
+    .home.color-scheme-blog .custom-header-content,
+    .home.color-scheme-corporate .custom-header-content {
+        padding: 160px 40px;
+    }
+
+    .countdown-content-wrapper {
+        .content-wrapper {
+            .content-left {
+                max-width: 560px;
+            }
+
+            .content-right #clock {
+                max-width: 590px;
+            }
+        }
+    }
+
+    .countdown-content-wrapper .content-wrapper .content-right .entry-content .post-thumbnail img {
+        margin-bottom: 82px;
+    }
+}

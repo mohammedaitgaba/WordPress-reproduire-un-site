@@ -1,0 +1,53 @@
+$theme-background-color: ( 
+    background-color: #ffffff,
+
+    background-primary-color: #fff, 
+
+    background-secondary-color: #f6f6f6, 
+
+    background-tertiary-color: #061d55, 
+    
+    background-footer-color: #121212, 
+    
+);
+$theme-color:(
+    primary-color: #333333, 
+
+    header-color: #ffffff, 
+
+    tertiary-link-color: #ffbb4a, 
+
+    headline-text-color: #111111, 
+
+    theme-link-color: #fa6742, 
+
+    theme-link-hover-color: #ffbb4a, 
+
+    secondary-link-color: #111111, 
+
+    secondary-link-hover-color: #ffbb4a, 
+
+    non-transparent-nav-hover-color: #ffbb4a,
+
+    color-white-light: #fff, 
+
+    main-border-color: #e6e6e6
+);
+
+$button-color: ( 
+    background-button: #fa6742, 
+
+    button-text-color: #fff, 
+
+    button-hover-text-color: #fff, 
+
+    background-hover-button: #333333,
+
+    gradient-button-background-color-first: #b99470,
+
+    gradient-button-background-color-first-next: #fa6742,
+
+    gradient-button-background-hover-color-first: #fa6742,
+
+    gradient-button-background-hover-color-first-next: #b99470,
+);
