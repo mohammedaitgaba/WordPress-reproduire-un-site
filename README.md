@@ -15,3 +15,19 @@
 
 <h2>étude de benchmarking des CMS</h2>
 <img src="./BenchmarkCms/Capture d’écran 2022-05-01 124252.png">
+
+<h2>c'est quoi wordpress.</h2>
+<p>
+Open-Source, WordPress fait partie des CMS les plus utilisés par les particuliers et les professionnels. Parmi ses principaux atouts figurent :
+</p>
+
+<ul>
+    <li> Des templates et plugins pour tout faire.</li>
+    <li>Une polyvalence à toute épreuve : blog d’entreprise, site corporate, site e-commerce, tout est envisageable.</li>
+    <li>Une communauté active.</li>
+    <li>Une architecture idéale et simple à améliorer pour le référencement naturel SEO.</li>
+</ul>
+
+
+
+
